@@ -150,11 +150,14 @@
  
     @media screen and (max-width: 768px) {
       .navbar-logo {
-        font-size: 1.2rem; /* ridimensiona il testo sui dispositivi più piccoli */
-        word-break: break-word; /* fa andare a capo il testo se troppo lungo */
-        max-width: 70%; /* assicurati che non occupi troppo spazio */
+        font-size: 1rem; /* riduci ancora di più la dimensione del testo */
+        word-break: break-word; /* forza a andare a capo se necessario */
+        white-space: normal; /* permette al testo di andare a capo */
+        max-width: 80%; /* assicurati che il logo non occupi tutto lo spazio */
+        text-align: left; /* allinea a sinistra, se preferisci */
       }
     }
+    
 
   }
   
