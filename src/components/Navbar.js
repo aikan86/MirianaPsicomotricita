@@ -13,12 +13,23 @@ function Navbar() {
     setIsOpen(false);
   };
 
+<Link to="/" className="navbar-logo" onClick={closeMenu}>
+  <div className="logo-container">
+    <span className="logo-title">Miriana Ferro</span>
+    <span className="logo-subtitle">Psicomotricità</span>
+  </div>
+</Link>
+
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          Miriana Ferro <span className="navbar-subtitle">Psicomotricista</span>
-        </Link>
+      <Link to="/" className="navbar-logo" onClick={closeMenu}>
+        <div className="logo-container">
+          <span className="logo-title">Miriana Ferro</span>
+          <span className="logo-subtitle">Psicomotricità</span>
+        </div>
+      </Link>
 
         {/* Icona hamburger */}
         <div className="menu-icon" onClick={toggleMenu}>
