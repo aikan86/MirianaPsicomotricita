@@ -18,9 +18,12 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
       <Link to="/" className="navbar-logo">
-        <span className="logo-name">Miriana Ferro</span>
-        <span className="navbar-subtitle">Psicomotricista</span>
+        <div className="logo-container">
+          <span className="logo-name">Miriana Ferro</span>
+          <span className="navbar-subtitle">Psicomotricista</span>
+        </div>
       </Link>
+
 
 
         {/* Icona hamburger */}

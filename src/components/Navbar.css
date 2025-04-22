@@ -2,9 +2,7 @@
 .navbar {
   background-color: #ffffff;
   height: 95px;
-  display: flex; /* Cambiato da inline */
-  justify-content: center;
-  align-items: center;
+  display: block; /* Cambiato a block */
   font-family: 'Montserrat', sans-serif;
   position: sticky;
   top: 0;
@@ -13,35 +11,40 @@
 }
 
 .navbar-container {
-  display: flex; /* Cambiato da inline */
+  display: flex; /* Usiamo flex qui */
   justify-content: space-between;
   align-items: center;
   width: 100%;
   max-width: 1200px;
   padding: 30px 20px;
+  margin: 0 auto; /* Centra il container */
 }
 
+/* Stile specifico per il logo */
 .navbar-logo {
+  text-decoration: none;
+}
+
+/* Contenitore per mantenere il nome e il sottotitolo insieme */
+.logo-container {
   display: flex;
   flex-direction: row;
-  align-items: baseline;
-  gap: 15px; /* Spazio tra il nome e il sottotitolo */
-  text-decoration: none;
-  cursor: pointer;
-  padding: 0 10px;
-  box-sizing: border-box;
+  align-items: center;
+  gap: 15px;
 }
 
 .logo-name {
   font-size: 1.8rem;
   font-weight: 700;
   color: #2e5d9e;
+  margin: 0; /* Rimuove il margine */
 }
 
 .navbar-subtitle {
   font-size: 1rem;
   font-weight: 400;
   color: #6c757d;
+  margin: 0; /* Rimuove il margine */
 }
 
 .nav-menu {
@@ -96,7 +99,7 @@
     height: 90px;
   }
   
-  .navbar-logo {
+  .logo-container {
     gap: 8px; /* Spazio ridotto su mobile */
   }
   
