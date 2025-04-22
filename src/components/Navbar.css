@@ -147,5 +147,14 @@
     .nav-link::after {
       display: none;
     }
+
+    @media screen and (max-width: 768px) {
+      .navbar-logo {
+        font-size: 1.2rem; /* ridimensiona il testo sui dispositivi più piccoli */
+        word-break: break-word; /* fa andare a capo il testo se troppo lungo */
+        max-width: 70%; /* assicurati che non occupi troppo spazio */
+      }
+    }
+
   }
   
