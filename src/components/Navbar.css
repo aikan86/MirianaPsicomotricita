@@ -22,7 +22,7 @@
   }
   
   .navbar-logo {
-    display: flex;
+    display: inline;
     flex-direction: row; /* in riga */
     justify-content: space-between; /* uno a sinistra, uno a destra */
     align-items: center;
