@@ -18,12 +18,12 @@
     align-items: center;
     width: 100%;
     max-width: 1200px;
-    padding: 30px 20px 30px;
+    padding: 30px 20px;
   }
   
   .navbar-logo {
     color: #2e5d9e;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
   }
   
   .navbar-subtitle {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 400;
     color: #6c757d;
   }
@@ -94,7 +94,7 @@
     }
     
     .navbar-logo {
-      font-size: 1.5rem;
+      font-size: 1rem;
       position: absolute;
       top: 10px;
       left: 20px;
