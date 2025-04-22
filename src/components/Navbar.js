@@ -26,7 +26,7 @@ function Navbar() {
         </div>
 
         {/* Menu navigazione */}
-        <ul className={isOpen ? 'nav-menu active' : 'nav-menu'}>
+        <ul className={`nav-menu ${isOpen ? 'active' : ''}`}>
           <li className="nav-item">
             <Link to="/" className="nav-link" onClick={closeMenu}>
               Home
