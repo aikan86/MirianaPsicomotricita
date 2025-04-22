@@ -2,7 +2,7 @@
   .navbar {
     background-color: #ffffff;
     height: 95px;
-    display: flex;
+    display: inline;
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
