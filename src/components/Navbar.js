@@ -9,40 +9,46 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/" className="navbar-logo">
+        <Link to="/" className="navbar-logo" onClick={closeMenu}>
           Miriana Ferro <span className="navbar-subtitle">Psicomotricista</span>
         </Link>
-        
+
+        {/* Icona hamburger */}
         <div className="menu-icon" onClick={toggleMenu}>
           <i className={isOpen ? 'fas fa-times' : 'fas fa-bars'} />
         </div>
-        
+
+        {/* Menu navigazione */}
         <ul className={isOpen ? 'nav-menu active' : 'nav-menu'}>
           <li className="nav-item">
-            <Link to="/" className="nav-link" onClick={toggleMenu}>
+            <Link to="/" className="nav-link" onClick={closeMenu}>
               Home
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/chi-sono" className="nav-link" onClick={toggleMenu}>
+            <Link to="/chi-sono" className="nav-link" onClick={closeMenu}>
               Chi Sono
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/psicomotricita" className="nav-link" onClick={toggleMenu}>
+            <Link to="/psicomotricita" className="nav-link" onClick={closeMenu}>
               Psicomotricità
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/servizi" className="nav-link" onClick={toggleMenu}>
+            <Link to="/servizi" className="nav-link" onClick={closeMenu}>
               Servizi
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/contatti" className="nav-link" onClick={toggleMenu}>
+            <Link to="/contatti" className="nav-link" onClick={closeMenu}>
               Contatti
             </Link>
           </li>
