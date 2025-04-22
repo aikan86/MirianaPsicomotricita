@@ -17,9 +17,11 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          Miriana Ferro <span className="navbar-subtitle">Psicomotricista</span>
-        </Link>
+      <Link to="/" className="navbar-logo">
+        <span className="logo-name">Miriana Ferro</span>
+        <span className="navbar-subtitle">Psicomotricista</span>
+      </Link>
+
 
         {/* Icona hamburger */}
         <div className="menu-icon" onClick={toggleMenu}>

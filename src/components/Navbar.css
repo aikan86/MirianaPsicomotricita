@@ -13,7 +13,7 @@
   }
   
   .navbar-container {
-    display: inline;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -22,27 +22,22 @@
   }
   
   .navbar-logo {
-    display: flex; /* Cambiato da 'inline' a 'flex' */
+    display: flex;
     flex-direction: row;
-    justify-content: flex-start; /* Allinea gli elementi a sinistra */
-    align-items: center;
-    width: 100%;
-    max-width: 100%;
+    align-items: baseline; /* Allinea gli elementi alla linea di base del testo */
+    gap: 15px; /* Spazio tra il titolo e il sottotitolo */
     font-size: 1.8rem;
     font-weight: 700;
     color: #2e5d9e;
     text-decoration: none;
     cursor: pointer;
-    padding: 0 10px;
-    box-sizing: border-box;
-    white-space: nowrap; /* Impedisce l'interruzione del testo */
   }
   
   .navbar-subtitle {
     font-size: 1rem;
     font-weight: 400;
     color: #6c757d;
-    margin-left: 15px; /* Aggiunge spazio tra il nome e il titolo */
+    display: inline-block; /* Importante per posizionarlo correttamente */
   }
   
   .nav-menu {
