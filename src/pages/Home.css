@@ -2,7 +2,7 @@
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(161, 218, 203, 0.8), rgba(74, 144, 226, 0.8)), url('%PUBLIC_URL%/images/hero-bg.jpg') center center/cover no-repeat;
+    background: linear-gradient(rgba(46, 93, 158, 0.8), rgba(166, 192, 221, 0.8)), url('%PUBLIC_URL%/images/hero-bg.jpg') center center/cover no-repeat;
     height: 100vh;
     max-height: 800px;
     width: 100%;
