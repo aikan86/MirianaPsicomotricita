@@ -16,8 +16,10 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
+        {/* Logo con due span: uno a sinistra, uno a destra */}
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          Miriana Ferro <span className="navbar-subtitle">Psicomotricista</span>
+          <span className="logo-left">Miriana Ferro</span>
+          <span className="logo-right">Psicomotricità</span>
         </Link>
 
         {/* Icona hamburger */}
