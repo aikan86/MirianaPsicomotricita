@@ -85,6 +85,8 @@
     font-size: 1.8rem;
     color: #2e5d9e;
   }
+
+
   
   @media screen and (max-width: 960px) {
     .navbar {
@@ -96,6 +98,8 @@
       position: absolute;
       top: 10px;
       left: 20px;
+      white-space: normal;
+      word-break: break-word;
     }
     
     .navbar-subtitle {
@@ -148,16 +152,5 @@
       display: none;
     }
  
-    @media screen and (max-width: 768px) {
-      .navbar-logo {
-        font-size: 1rem; /* riduci ancora di più la dimensione del testo */
-        word-break: break-word; /* forza a andare a capo se necessario */
-        white-space: normal; /* permette al testo di andare a capo */
-        max-width: 80%; /* assicurati che il logo non occupi tutto lo spazio */
-        text-align: left; /* allinea a sinistra, se preferisci */
-      }
-    }
-    
-
-  }
+ }
   
