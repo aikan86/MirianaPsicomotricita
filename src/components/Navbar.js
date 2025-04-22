@@ -13,13 +13,12 @@ function Navbar() {
     setIsOpen(false);
   };
 
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        {/* Logo con due span: uno a sinistra, uno a destra */}
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <span className="logo-left">Miriana Ferro</span>
-          <span className="logo-right">Psicomotricità</span>
+          Miriana Ferro <span className="navbar-subtitle">Psicomotricista</span>
         </Link>
 
         {/* Icona hamburger */}
