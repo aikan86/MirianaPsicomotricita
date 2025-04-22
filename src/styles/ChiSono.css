@@ -1,0 +1,295 @@
+/* ChiSono.css */
+
+/* Page Header styling is already in App.css */
+
+/* Profile Section */
+.profile-section {
+    padding: 0 0 80px;
+  }
+  
+  .profile-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    padding: 0 20px;
+  }
+  
+  .profile-image {
+    flex: 1;
+    max-width: 40%;
+    padding-right: 50px;
+  }
+  
+  .profile-image img {
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-bio {
+    flex: 1;
+  }
+  
+  .profile-bio h2 {
+    color: #2e5d9e;
+    margin-bottom: 5px;
+  }
+  
+  .profile-bio h3 {
+    color: #6c757d;
+    font-weight: 400;
+    margin-bottom: 25px;
+  }
+  
+  .profile-bio p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+  }
+  
+  .profile-quote {
+    margin: 40px 0;
+    padding: 20px 30px;
+    border-left: 4px solid #4a90e2;
+    background-color: #f8f9fa;
+    border-radius: 0 10px 10px 0;
+  }
+  
+  .profile-quote blockquote {
+    font-style: italic;
+    color: #4a4a4a;
+    font-size: 1.2rem;
+    line-height: 1.7;
+  }
+  
+  /* Background Section */
+  .background-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+  }
+  
+  .background-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .background-container h2 {
+    text-align: center;
+    color: #2e5d9e;
+    margin-bottom: 50px;
+  }
+  
+  .timeline {
+    position: relative;
+    padding: 0 0 0 50px;
+  }
+  
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #4a90e2;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
+  .timeline-dot {
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #4a90e2;
+    border: 4px solid #fff;
+    box-shadow: 0 0 0 2px #4a90e2;
+  }
+  .timeline-content {
+    padding: 0 0 0 20px;
+  }
+  
+  .timeline-content h3 {
+    color: #2e5d9e;
+    margin-bottom: 10px;
+  }
+  
+  .timeline-date {
+    display: inline-block;
+    background-color: #eef5ff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: #4a90e2;
+    margin-bottom: 15px;
+  }
+  
+  .timeline-content p {
+    line-height: 1.7;
+  }
+  
+  /* Philosophy Section */
+  .philosophy-section {
+    padding: 80px 0;
+  }
+  
+  .philosophy-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .philosophy-container h2 {
+    text-align: center;
+    color: #2e5d9e;
+    margin-bottom: 50px;
+  }
+  
+  .philosophy-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .philosophy-text {
+    flex: 1;
+    padding-right: 50px;
+  }
+  
+  .philosophy-text p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+  }
+  
+  .philosophy-image {
+    flex: 1;
+    max-width: 45%;
+  }
+  
+  .philosophy-image img {
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Certifications Section */
+  .certifications-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+  }
+  
+  .certifications-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .certifications-container h2 {
+    text-align: center;
+    color: #2e5d9e;
+    margin-bottom: 50px;
+  }
+  
+  .certifications-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .certifications-list li {
+    position: relative;
+    padding: 15px 0 15px 30px;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .certifications-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .certifications-list li::before {
+    content: '\f559'; /* Certificate icon from Font Awesome */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    color: #4a90e2;
+  }
+/* Responsive */
+@media screen and (max-width: 960px) {
+    .profile-container {
+      flex-direction: column;
+    }
+    
+    .profile-image {
+      max-width: 100%;
+      padding-right: 0;
+      margin-bottom: 40px;
+    }
+    
+    .philosophy-content {
+      flex-direction: column;
+    }
+    
+    .philosophy-text {
+      padding-right: 0;
+      margin-bottom: 40px;
+    }
+    
+    .philosophy-image {
+      max-width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .profile-section, .background-section, .philosophy-section, .certifications-section {
+      padding: 60px 0;
+    }
+    
+    .profile-quote {
+      margin: 30px 0;
+      padding: 15px 20px;
+    }
+    
+    .profile-quote blockquote {
+      font-size: 1.1rem;
+    }
+    
+    .timeline {
+      padding: 0 0 0 30px;
+    }
+    
+    .timeline::before {
+      left: 10px;
+    }
+    
+    .timeline-dot {
+      left: -30px;
+      width: 12px;
+      height: 12px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .profile-section, .background-section, .philosophy-section, .certifications-section {
+      padding: 40px 0;
+    }
+    
+    .timeline-date {
+      font-size: 0.8rem;
+      padding: 3px 10px;
+    }
+    
+    .certifications-list li {
+      padding: 12px 0 12px 25px;
+    }
+    
+    .certifications-list li::before {
+      top: 12px;
+    }
+  }
+      

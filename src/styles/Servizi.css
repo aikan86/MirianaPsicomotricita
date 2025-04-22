@@ -1,0 +1,211 @@
+/* Servizi.css */
+
+/* Page Header styling is already in App.css */
+
+/* Services Intro */
+.services-intro {
+    margin-bottom: 60px;
+  }
+  
+  .intro-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .intro-container p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #6c757d;
+  }
+/* Services Grid */
+.services-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .service-item {
+    display: flex;
+    margin-bottom: 80px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+  }
+  
+  .service-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    background-color: #eef5ff;
+    color: #4a90e2;
+    font-size: 3rem;
+    padding: 30px;
+  }
+  
+  .service-content {
+    flex: 1;
+    padding: 40px;
+  }
+  
+  .service-content h2 {
+    color: #2e5d9e;
+    margin-bottom: 15px;
+  }
+  
+  .service-content p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+    color: #6c757d;
+  }
+  
+  .service-content ul {
+    margin-bottom: 30px;
+  }
+  
+  .service-content ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .service-details {
+    display: flex;
+    margin: 30px 0;
+    padding: 20px 0;
+    border-top: 1px solid #eef5ff;
+    border-bottom: 1px solid #eef5ff;
+  }
+  
+  .detail-item {
+    flex: 1;
+  }
+  
+  .detail-item h3 {
+    font-size: 1.1rem;
+    color: #4a90e2;
+    margin-bottom: 10px;
+  }
+  
+  /* Additional Info */
+  .additional-info {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    margin-top: 20px;
+  }
+  
+  .info-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .info-container h2 {
+    text-align: center;
+    color: #2e5d9e;
+    margin-bottom: 50px;
+  }
+  
+  .info-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .info-card h3 {
+    color: #2e5d9e;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+  }
+  
+  .info-card h3 i {
+    margin-right: 10px;
+    color: #4a90e2;
+  }
+  
+  .info-card p {
+    color: #6c757d;
+    line-height: 1.7;
+  }
+/* CTA Section styling is already in App.css */
+
+/* Responsive */
+@media screen and (max-width: 960px) {
+    .service-item {
+      flex-direction: column;
+    }
+    
+    .service-icon {
+      width: 100%;
+      padding: 20px;
+    }
+    
+    .service-details {
+      flex-direction: column;
+    }
+    
+    .detail-item {
+      margin-bottom: 20px;
+    }
+    
+    .detail-item:last-child {
+      margin-bottom: 0;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .services-intro {
+      margin-bottom: 40px;
+    }
+    
+    .intro-container p {
+      font-size: 1.1rem;
+    }
+    
+    .service-item {
+      margin-bottom: 40px;
+    }
+    
+    .service-content {
+      padding: 30px;
+    }
+    
+    .service-content h2 {
+      font-size: 1.8rem;
+    }
+    
+    .additional-info {
+      padding: 60px 0;
+    }
+    
+    .info-card {
+      padding: 20px 25px;
+    }
+    
+    .info-card h3 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .service-content {
+      padding: 20px;
+    }
+    
+    .service-content h2 {
+      font-size: 1.6rem;
+    }
+    
+    .service-details {
+      padding: 15px 0;
+    }
+    
+    .additional-info {
+      padding: 40px 0;
+    }
+  }
+      
