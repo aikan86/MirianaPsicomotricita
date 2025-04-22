@@ -16,12 +16,12 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-      <Link to="/" className="navbar-logo" onClick={closeMenu}>
-      <div className="logo-container">
-        <span className="logo-title">Miriana Ferro</span>
-        <span className="logo-subtitle">Psicomotricità</span>
-      </div>
-    </Link>
+        <Link to="/" className="navbar-logo" onClick={closeMenu}>
+          <div className="navbar-container">
+            <span className="navbar-logo">Miriana Ferro</span>
+            <span className="navbar-subtitle">Psicomotricità</span>
+          </div>
+        </Link>
 
         {/* Icona hamburger */}
         <div className="menu-icon" onClick={toggleMenu}>
