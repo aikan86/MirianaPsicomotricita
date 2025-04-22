@@ -22,12 +22,12 @@
   }
   
   .navbar-logo {
-    display: inline;
-    flex-direction: row; /* in riga */
-    justify-content: space-between; /* uno a sinistra, uno a destra */
+    display: flex; /* Cambiato da 'inline' a 'flex' */
+    flex-direction: row;
+    justify-content: flex-start; /* Allinea gli elementi a sinistra */
     align-items: center;
     width: 100%;
-    max-width: 100%; /* o meno, se preferisci */
+    max-width: 100%;
     font-size: 1.8rem;
     font-weight: 700;
     color: #2e5d9e;
@@ -35,14 +35,14 @@
     cursor: pointer;
     padding: 0 10px;
     box-sizing: border-box;
-    white-space: normal;
-    word-break: break-word;
+    white-space: nowrap; /* Impedisce l'interruzione del testo */
   }
   
   .navbar-subtitle {
     font-size: 1rem;
     font-weight: 400;
     color: #6c757d;
+    margin-left: 15px; /* Aggiunge spazio tra il nome e il titolo */
   }
   
   .nav-menu {
@@ -101,14 +101,16 @@
     }
     
     .navbar-logo {
-      font-size: 1rem; /* più piccolo sui dispositivi mobili */
-      flex-wrap: wrap; /* permette ai testi di andare a capo */
-      justify-content: center; /* centra i testi */
+      font-size: 1rem;
+      display: flex; /* Cambiato da 'inline' a 'flex' */
+      flex-wrap: nowrap; /* Mantiene gli elementi sulla stessa riga */
+      justify-content: flex-start; /* Allinea gli elementi a sinistra */
       max-width: 90%;
     }
     
     .navbar-subtitle {
       font-size: 0.8rem;
+      margin-left: 10px; /* Spazio ridotto su mobile */
     }
     
     .menu-icon {
