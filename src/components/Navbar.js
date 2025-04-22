@@ -17,10 +17,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMenu}>
-          <div className="navbar-container">
-            <span className="navbar-logo">Miriana Ferro</span>
-            <span className="navbar-subtitle">Psicomotricità</span>
-          </div>
+          Miriana Ferro <span className="navbar-subtitle">Psicomotricista</span>
         </Link>
 
         {/* Icona hamburger */}
