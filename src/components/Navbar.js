@@ -17,10 +17,13 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-      <Link to="/" className="navbar-logo">
+      <Link to="/public/logo512.png" className="navbar-logo">
         <div className="logo-container">
-          <span className="logo-name">Miriana Ferro</span>
-          <span className="navbar-subtitle">Psicomotricista</span>
+          <img src="" alt="Logo Miriana Ferro" className="logo-image" />
+          <div className="logo-text">
+            <span className="logo-name">Miriana Ferro</span>
+            <span className="navbar-subtitle">Psicomotricista</span>
+          </div>
         </div>
       </Link>
 
