@@ -38,63 +38,6 @@ function ChiSono() {
         </div>
       </section>
 
-      <section className="background-section">
-        <div className="background-container">
-          <h2>Il mio percorso</h2>
-          <div className="timeline">
-            <div className="timeline-item">
-              <div className="timeline-dot"></div>
-              <div className="timeline-content">
-                <h3>Formazione accademica</h3>
-                <p className="timeline-date">2008-2011</p>
-                <p>
-                  Ho conseguito la laurea in Scienze Motorie presso l'Università di [Nome Università], 
-                  dove ho iniziato ad appassionarmi allo studio del movimento umano e delle sue 
-                  implicazioni psicologiche.
-                </p>
-              </div>
-            </div>
-            <div className="timeline-item">
-              <div className="timeline-dot"></div>
-              <div className="timeline-content">
-                <h3>Specializzazione in Psicomotricità</h3>
-                <p className="timeline-date">2011-2013</p>
-                <p>
-                  Mi sono specializzata in Psicomotricità presso [Istituto/Scuola], acquisendo 
-                  competenze specifiche nei metodi di intervento psicomotorio per diverse fasce d'età.
-                </p>
-              </div>
-            </div>
-            
-            <div className="timeline-item">
-              <div className="timeline-dot"></div>
-              <div className="timeline-content">
-                <h3>Esperienza professionale</h3>
-                <p className="timeline-date">2013-2017</p>
-                <p>
-                  Ho collaborato con diversi centri educativi e riabilitativi, sviluppando 
-                  protocolli di intervento personalizzati per bambini con difficoltà di sviluppo 
-                  e apprendimento.
-                </p>
-              </div>
-            </div>
-            
-            <div className="timeline-item">
-              <div className="timeline-dot"></div>
-              <div className="timeline-content">
-                <h3>Formazione continua</h3>
-                <p className="timeline-date">2017-presente</p>
-                <p>
-                  Continuo ad aggiornarmi attraverso corsi di specializzazione e workshop 
-                  internazionali, ampliando le mie competenze in aree come la psicomotricità 
-                  relazionale e l'integrazione sensoriale.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="philosophy-section">
         <div className="philosophy-container">
           <h2>La mia filosofia professionale</h2>
