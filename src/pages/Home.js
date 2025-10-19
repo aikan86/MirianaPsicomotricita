@@ -106,45 +106,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="testimonials">
-        <h2>Testimonianze</h2>
-        <div className="testimonials-container">
-          <div className="testimonial-card">
-            <div className="testimonial-content">
-              <p>
-                "Grazie al percorso con Miriana, mio figlio ha migliorato notevolmente la coordinazione
-                e la fiducia in sé stesso. Un'esperienza davvero positiva per tutta la famiglia."
-              </p>
-            </div>
-            <div className="testimonial-author">
-              <img src="/images/testimonial1.jpg" alt="Testimonianza" className="testimonial-image" />
-              <div className="testimonial-info">
-                <h4>Laura B.</h4>
-                <p>Mamma di Marco, 7 anni</p>
-              </div>
-            </div>
-          </div>
-          
-          <div className="testimonial-card">
-            <div className="testimonial-content">
-              <p>
-                "Come insegnante, ho apprezzato enormemente i consigli di Miriana per gestire 
-                meglio le dinamiche motorie in classe. I suoi laboratori hanno trasformato positivamente 
-                il gruppo."
-              </p>
-            </div>
-            <div className="testimonial-author">
-              <img src="/images/testimonial2.jpg" alt="Testimonianza" className="testimonial-image" />
-              <div className="testimonial-info">
-                <h4>Giulia M.</h4>
-                <p>Insegnante scuola primaria</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="cta-section">
         <div className="cta-container">

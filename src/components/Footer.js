@@ -15,29 +15,18 @@ function Footer() {
                 <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="Facebook">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="Instagram">
+                <a href="https://www.instagram.com/aleli_psicomotricita_genova?igsh=cWJtd2FzMzA2b244" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="Instagram">
                   <i className="fab fa-instagram"></i>
                 </a>
-                <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="LinkedIn">
-                  <i className="fab fa-linkedin"></i>
-                </a>
               </div>
-            </div>
-            <div className="footer-link-items">
-              <h2>Naviga</h2>
-              <Link to="/">Home</Link>
-              <Link to="/chi-sono">Chi Sono</Link>
-              <Link to="/psicomotricita">Psicomotricità</Link>
-              <Link to="/servizi">Servizi</Link>
-              <Link to="/contatti">Contatti</Link>
             </div>
           </div>
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
               <h2>Contatti</h2>
-              <p><i className="fas fa-map-marker-alt"></i> Via Esempio 123, Città</p>
-              <p><i className="fas fa-phone"></i> +39 123 456 7890</p>
-              <p><i className="fas fa-envelope"></i> info@mirianaferro.it</p>
+              <p><i className="fas fa-map-marker-alt"></i> Genova</p>
+              <p><i className="fas fa-phone"></i> +39 3457145906</p>
+              <p><i className="fas fa-envelope"></i> miriana.ferro@yahoo.it</p>
             </div>
             <div className="footer-link-items">
               <h2>Orari</h2>
