@@ -45,7 +45,7 @@ function ChiSono() {
       {/* SEZIONE CON LE 3 IMMAGINI */}
       <section className="approach-images-section">
         <div className="approach-container">
-          <h2>I miei approcci</h2>
+          <h2>Quella che faccio è Psicomotricità:</h2>
           <div className="images-grid">
             <div className="approach-image">
               <img src={educativaImg} alt="Approccio Educativo" />
