@@ -4,6 +4,7 @@ import '../styles/ChiSono.css';
 import educativaImg from '../images/educativa.jpg';
 import relazionaleImg from '../images/relazionale.jpg';
 import preventivaImg from '../images/preventiva.jpg';
+import profiloImg from '../images/miriana-profile-full.jpg';
 
 function ChiSono() {
   return (
@@ -18,7 +19,7 @@ function ChiSono() {
       <section className="profile-section">
         <div className="profile-container">
           <div className="profile-image">
-            <img src="/images/miriana-profile-full.jpg" alt="Miriana Ferro" />
+            <img src={profiloImg} alt="Miriana Ferro" />
           </div>
           <div className="profile-bio">
             <h2>Miriana Ferro</h2>
