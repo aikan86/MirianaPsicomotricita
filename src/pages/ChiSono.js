@@ -21,8 +21,8 @@ function ChiSono() {
             <h3>Specialista in Psicomotricità</h3>
             <p>
               Mi occupo della cura dei bambini, della cura della relazione con e tra essi, della cura delle famiglie. 
-              Mi piace dire che aiuto i bambini a fiorire e adesso vi spiego perché: Un bravo giardiniere assiste e crea le condizioni perché le sue piante fioriscano in salute: ha rispetto per il seme, sa che in esso sono contenute tutte le caratteristiche necessarie per crescere. 
-              Se, però, da una parte, è vero che le piante crescono da sole, dall’altra, la cura e l’attenzione fanno la differenza. Si tratta di preparare adeguatamente il terreno perché questo venga fuori naturalmente ed in equilibrio. Ed è proprio quello che faccio con la psicomotricità.
+              Mi piace dire che aiuto i bambini a fiorire e adesso vi spiego perché: Un bravo giardiniere assiste e crea le condizioni perché le sue piante fioriscano in salute: ha rispetto per il seme, <strong>sa che in esso sono contenute tutte le caratteristiche</strong> necessarie per crescere. 
+              Se, però, da una parte, è vero che le piante crescono da sole, dall’altra, <strong>la cura e l’attenzione fanno la differenza</strong>. Si tratta di preparare adeguatamente il terreno perché questo venga fuori naturalmente ed in equilibrio. Ed è proprio quello che faccio con la psicomotricità.
             </p>
             <p>
               Credo che ogni bambino porti in sé risorse preziose.
