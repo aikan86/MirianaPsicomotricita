@@ -65,10 +65,17 @@ function Home() {
             <div className="service-icon">
               <i className="fas fa-child"></i>
             </div>
-            <h3>Psicomotricità per bambini</h3>
+            <h3>Psicomotricità per bambini (3-13 anni)</h3>
             <p>
-              Percorsi dedicati allo sviluppo armonico delle capacità motorie, 
-              cognitive ed emotive dei più piccoli.
+              <strong>Ambito educativo</strong>
+              Percorsi di prevenzione e sviluppo armonico per favorire il benessere globale del bambino,
+              sostenendo la sua crescita motoria, emotiva e relazionale.
+            </p>
+            <p>
+              <strong>Ambito di aiuto</strong>
+              Interventi gruppo per bambini che vivono difficoltà emotive, relazionali o comportamentali.
+              L’obiettivo è offrire uno spazio sicuro dove il bambino possa esprimere, comprendere e
+              trasformare le proprie esperienze interiori.
             </p>
             <Link to="/servizi" className="service-link">
               Scopri di più
@@ -79,23 +86,12 @@ function Home() {
             <div className="service-icon">
               <i className="fas fa-users"></i>
             </div>
-            <h3>Attività di gruppo</h3>
+            <h3>Progetti per le scuole</h3>
             <p>
-              Sessioni di gruppo per favorire la socializzazione, la cooperazione 
-              e lo sviluppo di competenze relazionali.
-            </p>
-            <Link to="/servizi" className="service-link">
-              Scopri di più
-            </Link>
-          </div>
-          <div className="service-card">
-            <div className="service-icon">
-              <i className="fas fa-hands-helping"></i>
-            </div>
-            <h3>Consulenza per genitori</h3>
-            <p>
-              Supporto e orientamento per genitori ed educatori per comprendere 
-              e valorizzare lo sviluppo psicomotorio.
+              Collaboro con scuole dell’infanzia, primarie e secondarie di primo grado per la realizzazione di
+              <strong>progetti di psicomotricità educativa</strong>.
+              Gli incontri vengono adattati agli obiettivi della classe, promuovendo la cooperazione, la
+              gestione delle emozioni e l’inclusione.
             </p>
             <Link to="/servizi" className="service-link">
               Scopri di più
