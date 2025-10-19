@@ -17,9 +17,9 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-      <Link to="/public/logo512.png" className="navbar-logo">
+      <Link to="/" className="navbar-logo">
         <div className="logo-container">
-          <img src="" alt="Logo Miriana Ferro" className="logo-image" />
+          <img src="/images/logo512.png" alt="Logo Miriana Ferro" className="logo-image" />
           <div className="logo-text">
             <span className="logo-name">Miriana Ferro</span>
             <span className="navbar-subtitle">Psicomotricista</span>
