@@ -20,19 +20,18 @@ function ChiSono() {
             <h2>Miriana Ferro</h2>
             <h3>Specialista in Psicomotricità</h3>
             <p>
-              Benvenuti nella mia pagina personale! Sono Miriana Ferro, una professionista 
-              appassionata nel campo della psicomotricità con oltre 10 anni di esperienza nel 
-              supportare persone di tutte le età nel loro percorso di sviluppo e benessere.
+              Mi occupo della cura dei bambini, della cura della relazione con e tra essi, della cura delle famiglie. 
+              Mi piace dire che aiuto i bambini a fiorire e adesso vi spiego perché: Un bravo giardiniere assiste e crea le condizioni perché le sue piante fioriscano in salute: ha rispetto per il seme, sa che in esso sono contenute tutte le caratteristiche necessarie per crescere. 
+              Se, però, da una parte, è vero che le piante crescono da sole, dall’altra, la cura e l’attenzione fanno la differenza. Si tratta di preparare adeguatamente il terreno perché questo venga fuori naturalmente ed in equilibrio. Ed è proprio quello che faccio con la psicomotricità.
             </p>
             <p>
-              Il mio percorso professionale è nato dalla profonda convinzione che il corpo e la 
-              mente siano inseparabilmente connessi, e che attraverso il movimento possiamo 
-              esprimere e migliorare il nostro benessere complessivo.
+              Credo che ogni bambino porti in sé risorse preziose.
+              Il mio lavoro nasce dal desiderio di offrire uno spazio in cui possa sentirsi accolto, riconosciuto e libero di esprimersi.
+              Attraverso la relazione, il gioco e il rispetto dei suoi tempi, favorisco una crescita armonica e autentica.
             </p>
             <div className="profile-quote">
               <blockquote>
-                "Credo che ogni persona abbia un potenziale unico che può essere sviluppato 
-                attraverso l'ascolto del proprio corpo e il movimento consapevole."
+                "da pensare spermegacitazione con i controcazzi"
               </blockquote>
             </div>
           </div>
