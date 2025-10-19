@@ -1,6 +1,10 @@
 import React from 'react';
 import '../styles/ChiSono.css';
 
+import educativaImg from '../images/educativa.jpg';
+import relazionaleImg from '../images/relazionale.jpg';
+import preventivaImg from '../images/preventiva.jpg';
+
 function ChiSono() {
   return (
     <div className="chi-sono">
@@ -38,19 +42,19 @@ function ChiSono() {
         </div>
       </section>
 
-      {/* NUOVA SEZIONE CON LE 3 IMMAGINI */}
+      {/* SEZIONE CON LE 3 IMMAGINI */}
       <section className="approach-images-section">
         <div className="approach-container">
           <h2>I miei approcci</h2>
           <div className="images-grid">
             <div className="approach-image">
-              <img src="/educativa.jpg" alt="Approccio Educativo" />
+              <img src={educativaImg} alt="Approccio Educativo" />
             </div>
             <div className="approach-image">
-              <img src="/relazionale.jpg" alt="Approccio Relazionale" />
+              <img src={relazionaleImg} alt="Approccio Relazionale" />
             </div>
             <div className="approach-image">
-              <img src="/preventiva.jpg" alt="Approccio Preventivo" />
+              <img src={preventivaImg} alt="Approccio Preventivo" />
             </div>
           </div>
         </div>
