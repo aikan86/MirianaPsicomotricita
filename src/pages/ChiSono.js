@@ -44,13 +44,13 @@ function ChiSono() {
           <h2>I miei approcci</h2>
           <div className="images-grid">
             <div className="approach-image">
-              <img src="/images/educativa.jpg" alt="Approccio Educativo" />
+              <img src="/educativa.jpg" alt="Approccio Educativo" />
             </div>
             <div className="approach-image">
-              <img src="/images/relazionale.jpg" alt="Approccio Relazionale" />
+              <img src="/relazionale.jpg" alt="Approccio Relazionale" />
             </div>
             <div className="approach-image">
-              <img src="/images/preventiva.jpg" alt="Approccio Preventivo" />
+              <img src="/preventiva.jpg" alt="Approccio Preventivo" />
             </div>
           </div>
         </div>
