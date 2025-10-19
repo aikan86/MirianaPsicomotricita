@@ -66,13 +66,14 @@ function Home() {
               <i className="fas fa-child"></i>
             </div>
             <h3>Psicomotricità per bambini (3-13 anni)</h3>
+            <p><strong>Ambito educativo</strong></p>
             <p>
-              <strong>Ambito educativo</strong>
               Percorsi di prevenzione e sviluppo armonico per favorire il benessere globale del bambino,
               sostenendo la sua crescita motoria, emotiva e relazionale.
             </p>
+            
+            <p><strong>Ambito di aiuto</strong></p>
             <p>
-              <strong>Ambito di aiuto</strong>
               Interventi gruppo per bambini che vivono difficoltà emotive, relazionali o comportamentali.
               L’obiettivo è offrire uno spazio sicuro dove il bambino possa esprimere, comprendere e
               trasformare le proprie esperienze interiori.
