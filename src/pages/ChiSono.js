@@ -18,7 +18,7 @@ function ChiSono() {
           </div>
           <div className="profile-bio">
             <h2>Miriana Ferro</h2>
-            <h3>Specialista in Psicomotricità</h3>
+            <h3>La mia filosofia</h3>
             <p>
               Mi occupo della cura dei bambini, della cura della relazione con e tra essi, della cura delle famiglie. 
               Mi piace dire che aiuto i bambini a fiorire e adesso vi spiego perché: Un bravo giardiniere assiste e crea le condizioni perché le sue piante fioriscano in salute: ha rispetto per il seme, <strong>sa che in esso sono contenute tutte le caratteristiche</strong> necessarie per crescere. 
