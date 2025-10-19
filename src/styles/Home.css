@@ -2,7 +2,7 @@
 
 /* Hero Section */
 .hero {
-    background: url('%PUBLIC_URL%/images/hero-bg.jpg') center center/cover no-repeat;
+    background: url('../images/hero-bg.jpg') center center/cover no-repeat;
     height: 100vh;
     max-height: 800px;
     width: 100%;
@@ -12,7 +12,6 @@
     text-align: center;
     color: #fff;
     padding: 0 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   }
   
   .hero-container {
