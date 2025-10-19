@@ -8,8 +8,8 @@ function Home() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-container">
-          <h1>Psicomotricità per il benessere e lo sviluppo armonico</h1>
-          <p>Percorsi personalizzati per bambini, adolescenti e adulti</p>
+          <h1>Psicomotricità</h1>
+          <p>Crescere attraverso il movimento e la relazione</p>
           <div className="hero-btns">
             <Link to="/contatti" className="btn-primary">
               Prenota una consulenza
