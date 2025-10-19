@@ -27,14 +27,26 @@ function Home() {
           <div className="welcome-text">
             <h2>Benvenuti nel mio mondo</h2>
             <p>
-              Sono Miriana Ferro, specialista in psicomotricità con esperienza in diverse metodologie 
-              di intervento. Offro percorsi personalizzati per favorire l'equilibrio tra corpo, 
-              mente ed emozioni.
+              Sono Miriana Ferro, chinesiologa e psicomotricista relazionale in ambito educativo e preventivo.
+              Mi occupo del benessere dei bambini e dei loro genitori.
             </p>
             <p>
-              Attraverso la psicomotricità, aiuto le persone a migliorare la consapevolezza corporea, 
-              le capacità motorie e relazionali, promuovendo uno sviluppo armonico e integrato.
+              Mi piace occuparmi delle persone, sono appassionata del benessere e del movimento 
+              in tutte le sue forme.
             </p>
+            <p>
+              Considero importante comprendere le straordinarie potenzialità del corpo, il canale 
+              con il quale esplorare e conoscere l’ambiente ma anche e soprattutto con il quale è possibile esprimere se stessi.
+            </p>
+            <p>
+              È questo il motivo che mi ha spinto prima a laurearmi in <strong>Scienze delle Attività Motorie e Sportive</strong> 
+              e successivamente a specializzarmi in <strong>Psicomotricità Relazionale</strong>.
+            </p>
+            <p>
+              Lavorare con i bambini è ciò che mi è più naturale e mi appaga in assoluto, farlo
+              attraverso il gioco psicomotorio è il modo che preferisco!
+            </p>
+            
             <Link to="/chi-sono" className="btn-text">
               Scopri di più su di me <i className="fas fa-arrow-right"></i>
             </Link>
