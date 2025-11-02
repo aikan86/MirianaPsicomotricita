@@ -84,9 +84,10 @@ function Home() {
         <div className="cta-container">
           <h2>Prenota una consulenza personalizzata</h2>
           <p>
-            Vuoi saperne di più sui miei servizi o prenotare una sessione?
-            Contattami per una consulenza personalizzata e scopri come la psicomotricità
-            può essere utile per te o per i tuoi cari.
+          Desideri maggiori informazioni sui percorsi disponibili?
+          Contattami per una consulenza gratuita e scopriamo insieme come accompagnare
+          al meglio i bambini nel loro percorso di crescita.
+
           </p>
           <Link to="/contatti" className="btn-primary">
             Contattami ora

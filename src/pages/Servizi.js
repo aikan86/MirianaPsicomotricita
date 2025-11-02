@@ -53,8 +53,9 @@ function Servizi() {
         <div className="cta-container">
           <h2>Hai bisogno di ulteriori informazioni?</h2>
           <p>
-            Contattami per una consulenza gratuita di 15 minuti. Insieme valuteremo le tue 
-            esigenze e individueremo il percorso più adatto a te o ai tuoi cari.
+          Desideri maggiori informazioni sui percorsi disponibili?
+          Contattami per una consulenza gratuita e scopriamo insieme come accompagnare
+          al meglio i bambini nel loro percorso di crescita.
           </p>
           <Link to="/contatti" className="btn-primary">
             Contattami ora
