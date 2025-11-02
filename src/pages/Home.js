@@ -65,7 +65,7 @@ function Home() {
             <span>Chi Sono</span>
           </Link>
           <Link to="/psicomotricita" className="nav-button">
-            <i className="fas fa-brain"></i>
+            <i className="fas fa-child"></i>
             <span>Psicomotricità</span>
           </Link>
           <Link to="/servizi" className="nav-button">
