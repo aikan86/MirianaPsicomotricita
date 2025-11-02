@@ -10,17 +10,9 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: #fff;
     padding: 0 20px;
-    position: relative;
-  }
-  
-  .hero-overlay {
-    background-color: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(2px);
-    border-radius: 20px;
-    padding: 50px 40px;
-    max-width: 900px;
-    width: 100%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   }
   
   .hero-container {
@@ -32,8 +24,6 @@
     font-size: 3.5rem;
     margin-bottom: 20px;
     animation: fadeInDown 1s ease;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   }
   
   .hero p {
@@ -43,8 +33,6 @@
     margin-left: auto;
     margin-right: auto;
     animation: fadeInUp 1s ease;
-    color: #fff;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   }
   
   .hero-btns {
@@ -53,7 +41,6 @@
     gap: 20px;
     animation: fadeIn 1.5s ease;
   }
-
 
 /* Welcome Section */
 .welcome {
@@ -351,11 +338,6 @@
       font-size: 1.2rem;
     }
     
-    .hero-overlay {
-      padding: 40px 30px;
-      border-radius: 15px;
-    }
-    
     .hero-btns {
       flex-direction: column;
       gap: 15px;
@@ -393,11 +375,6 @@
   }
   
   @media screen and (max-width: 480px) {
-    .hero-overlay {
-      padding: 30px 20px;
-      border-radius: 10px;
-    }
-    
     .nav-buttons-container {
       grid-template-columns: 1fr;
     }
@@ -405,7 +382,8 @@
     .nav-button {
       padding: 35px 20px;
     }
-        .hero h1 {
+    
+    .hero h1 {
       font-size: 2rem;
     }
     
@@ -413,5 +391,3 @@
       font-size: 1rem;
     }
   }
-
-

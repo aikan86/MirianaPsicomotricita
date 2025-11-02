@@ -7,18 +7,16 @@ function Home() {
     <div className="home">
       {/* Hero Section */}
       <section className="hero">
-        <div className="hero-overlay">
-          <div className="hero-container">
-            <h1>Psicomotricità</h1>
-            <p>Crescere attraverso il movimento e la relazione</p>
-            <div className="hero-btns">
-              <Link to="/contatti" className="btn-primary">
-                Prenota una consulenza
-              </Link>
-              <Link to="/servizi" className="btn-outline">
-                Scopri i servizi
-              </Link>
-            </div>
+        <div className="hero-container">
+          <h1>Psicomotricità</h1>
+          <p>Crescere attraverso il movimento e la relazione</p>
+          <div className="hero-btns">
+            <Link to="/contatti" className="btn-primary">
+              Prenota una consulenza
+            </Link>
+            <Link to="/servizi" className="btn-outline">
+              Scopri i servizi
+            </Link>
           </div>
         </div>
       </section>
@@ -100,3 +98,5 @@ function Home() {
 }
 
 export default Home;
+
+
