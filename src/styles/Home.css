@@ -41,6 +41,7 @@
     gap: 20px;
     animation: fadeIn 1.5s ease;
   }
+
 /* Welcome Section */
 .welcome {
     padding: 100px 0;
@@ -80,6 +81,52 @@
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   }
   
+  /* Navigation Buttons Section */
+  .nav-buttons-section {
+    padding: 80px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .nav-buttons-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .nav-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #5b9bd5;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 180px;
+  }
+  
+  .nav-button:hover {
+    background-color: #4a8bc2;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .nav-button i {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .nav-button span {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
   /* Services Preview */
   .services-preview {
     background-color: #f8f9fa;
@@ -157,6 +204,7 @@
   .services-cta {
     margin-top: 20px;
   }
+
 /* Testimonials */
 .testimonials {
     padding: 100px 0;
@@ -266,6 +314,11 @@
       margin-bottom: 50px;
     }
     
+    .nav-buttons-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    
     .service-card {
       width: 45%;
     }
@@ -294,8 +347,47 @@
       padding: 60px 0;
     }
     
+    .nav-buttons-section {
+      padding: 60px 20px;
+    }
+    
+    .nav-buttons-container {
+      gap: 15px;
+    }
+    
+    .nav-button {
+      padding: 30px 15px;
+      min-height: 150px;
+    }
+    
+    .nav-button i {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    
+    .nav-button span {
+      font-size: 1.1rem;
+    }
+    
     .service-card {
       width: 100%;
     }
   }
-      
+  
+  @media screen and (max-width: 480px) {
+    .nav-buttons-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .nav-button {
+      padding: 35px 20px;
+    }
+    
+    .hero h1 {
+      font-size: 2rem;
+    }
+    
+    .hero p {
+      font-size: 1rem;
+    }
+  }
