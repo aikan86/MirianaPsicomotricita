@@ -268,10 +268,11 @@ function Psicomotricita() {
 
       <section className="cta-section">
         <div className="cta-container">
-          <h2>Scopri come la psicomotricità può aiutarti</h2>
+          <h2>Hai bisogno di ulteriori informazioni?</h2>
           <p>
-            Sei interessato a scoprire come la psicomotricità può contribuire al tuo benessere 
-            o a quello dei tuoi cari? Contattami per una consulenza personalizzata.
+            Desideri maggiori informazioni sui percorsi disponibili?
+            Contattami per una consulenza gratuita e scopriamo insieme come accompagnare
+            al meglio i bambini nel loro percorso di crescita.
           </p>
           <Link to="/contatti" className="btn-primary">
             Prenota una consulenza
