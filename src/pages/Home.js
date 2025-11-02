@@ -57,6 +57,28 @@ function Home() {
         </div>
       </section>
 
+      {/* Navigation Buttons Section */}
+      <section className="nav-buttons-section">
+        <div className="nav-buttons-container">
+          <Link to="/chi-sono" className="nav-button">
+            <i className="fas fa-user"></i>
+            <span>Chi Sono</span>
+          </Link>
+          <Link to="/psicomotricita" className="nav-button">
+            <i className="fas fa-brain"></i>
+            <span>Psicomotricità</span>
+          </Link>
+          <Link to="/servizi" className="nav-button">
+            <i className="fas fa-hands-helping"></i>
+            <span>Servizi</span>
+          </Link>
+          <Link to="/contatti" className="nav-button">
+            <i className="fas fa-envelope"></i>
+            <span>Contatti</span>
+          </Link>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="cta-section">
         <div className="cta-container">

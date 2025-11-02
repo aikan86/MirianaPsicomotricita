@@ -1,205 +1,393 @@
-/* Navbar.css */
-.navbar {
-  background-color: #ffffff;
-  height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Montserrat', sans-serif;
-  position: sticky;
-  top: 0;
-  z-index: 999;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
+/* Home.css */
 
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 1200px;
-  padding: 0 20px;
-}
-
-.navbar-logo {
-  color: #2e5d9e;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.logo-image {
-  width: 70px;
-  height: 70px;
-  object-fit: contain;
-  flex-shrink: 0;
-}
-
-.logo-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1px;
-}
-
-.logo-name {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #2e5d9e;
-}
-
-.navbar-subtitle {
-  font-size: 1rem;
-  font-weight: 400;
-  color: #6c757d;
-}
-
-.nav-menu {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  text-align: center;
-  margin: 0;
-}
-
-.nav-item {
-  margin: 0 15px;
-}
-
-.nav-link {
-  color: #333;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 1rem;
-  padding: 8px 0;
-  position: relative;
-  display: inline-block;
-}
-
-.nav-link::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #4a90e2;
-  transition: width 0.3s ease;
-}
-
-.nav-link:hover {
-  color: #4a90e2;
-}
-
-.nav-link:hover::after {
-  width: 100%;
-}
-
-.menu-icon {
-  display: none;
-  cursor: pointer;
-  font-size: 1.8rem;
-  color: #2e5d9e;
-}
-
-@media screen and (max-width: 960px) {
-  .navbar {
-    height: 70px; /* Aumenta leggermente l'altezza */
-  }
-  
-  .navbar-logo {
-    position: absolute;
-    top: 8px; /* Centra meglio */
-    left: 20px;
-  }
-  
-  .logo-container {
-    gap: 8px; /* Riduci spazio tra logo e testo */
-  }
-  
-  .logo-image {
-    width: 32px;
-    height: 32px;
-  }
-  
-  .logo-name {
-    font-size: 1.2rem;
-    line-height: 1.1; /* Riduci altezza riga */
-  }
-  
-  .navbar-subtitle {
-    font-size: 0.75rem;
-    line-height: 1;
-  }
-  
-  .menu-icon {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-20px, 22px); /* Adatta alla nuova altezza */
-  }
-  
-    .nav-menu {
+/* Hero Section */
+.hero {
+    background: url('../images/hero-bg.jpg') center center/cover no-repeat;
+    height: 100vh;
+    max-height: 500px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 90vh;
-    position: absolute;
-    top: 70px; /* Adatta alla nuova altezza navbar */
-    left: -100%;
-    opacity: 1;
-    transition: all 0.5s ease;
-    padding-top: 30px;
-    background-color: #fff;
-  }
-  
-  .nav-menu.active {
-    left: 0;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 1;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  }
-  
-  .nav-item {
-    margin: 15px 0;
-  }
-  
-  .nav-link {
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 15px;
-    width: 100%;
-    display: block;
-    font-size: 1.2rem;
+    color: #fff;
+    padding: 0 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   }
   
-  .nav-link::after {
-    display: none;
+  .hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
   }
-}
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    animation: fadeInDown 1s ease;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeInUp 1s ease;
+  }
+  
+  .hero-btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    animation: fadeIn 1.5s ease;
+  }
 
-/* Aggiungi un breakpoint per schermi molto piccoli */
-@media screen and (max-width: 480px) {
-  .logo-name {
+/* Welcome Section */
+.welcome {
+    padding: 100px 0;
+  }
+  
+  .welcome-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .welcome-text {
+    flex: 1;
+    padding-right: 50px;
+  }
+  
+  .welcome-text h2 {
+    color: #2e5d9e;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-text p {
+    margin-bottom: 20px;
     font-size: 1.1rem;
   }
   
-  .navbar-subtitle {
-    font-size: 0.65rem;
+  .welcome-image {
+    flex: 1;
+    max-width: 500px;
   }
   
-  .logo-image {
-    width: 28px;
-    height: 28px;
+  .welcome-image img {
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   }
   
-  .logo-container {
-    gap: 6px;
+  /* Navigation Buttons Section */
+  .nav-buttons-section {
+    padding: 80px 20px;
+    background-color: #f8f9fa;
   }
-}
+  
+  .nav-buttons-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+  
+  .nav-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #5b9bd5;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 180px;
+  }
+  
+  .nav-button:hover {
+    background-color: #4a8bc2;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .nav-button i {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .nav-button span {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  /* Services Preview */
+  .services-preview {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .services-preview h2 {
+    color: #2e5d9e;
+    margin-bottom: 50px;
+  }
+  
+  .services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 20px;
+  }
+  
+  .service-card {
+    width: 35%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-icon {
+    font-size: 2.5rem;
+    color: #4a90e2;
+    margin-bottom: 20px;
+  }
+  
+  .service-card h3 {
+    margin-bottom: 15px;
+    color: #2e5d9e;
+  }
+  
+  .service-card p {
+    margin-bottom: 20px;
+    color: #6c757d;
+  }
+  
+  .service-link {
+    color: #4a90e2;
+    font-weight: 600;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .service-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #4a90e2;
+    transition: width 0.3s ease;
+  }
+  
+  .service-link:hover::after {
+    width: 100%;
+  }
+  
+  .services-cta {
+    margin-top: 20px;
+  }
+
+/* Testimonials */
+.testimonials {
+    padding: 100px 0;
+  }
+  
+  .testimonials h2 {
+    text-align: center;
+    color: #2e5d9e;
+    margin-bottom: 50px;
+  }
+  
+  .testimonials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 20px;
+  }
+  
+  .testimonial-card {
+    width: 45%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .testimonial-content {
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-content p {
+    font-style: italic;
+    color: #6c757d;
+    line-height: 1.7;
+    font-size: 1.1rem;
+  }
+  
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+  }
+  
+  .testimonial-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+  }
+  
+  .testimonial-info h4 {
+    margin-bottom: 5px;
+    color: #2e5d9e;
+  }
+  
+  .testimonial-info p {
+    color: #6c757d;
+    font-size: 0.9rem;
+  }
+  
+  /* CTA Section styling is already in App.css */
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 960px) {
+    .welcome-container {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .welcome-text {
+      padding-right: 0;
+      margin-bottom: 50px;
+    }
+    
+    .nav-buttons-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    
+    .service-card {
+      width: 45%;
+    }
+    
+    .testimonial-card {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    
+    .hero p {
+      font-size: 1.2rem;
+    }
+    
+    .hero-btns {
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .welcome, .services-preview, .testimonials {
+      padding: 60px 0;
+    }
+    
+    .nav-buttons-section {
+      padding: 60px 20px;
+    }
+    
+    .nav-buttons-container {
+      gap: 15px;
+    }
+    
+    .nav-button {
+      padding: 30px 15px;
+      min-height: 150px;
+    }
+    
+    .nav-button i {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    
+    .nav-button span {
+      font-size: 1.1rem;
+    }
+    
+    .service-card {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .nav-buttons-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .nav-button {
+      padding: 35px 20px;
+    }
+    
+    .hero h1 {
+      font-size: 2rem;
+    }
+    
+    .hero p {
+      font-size: 1rem;
+    }
+  }
