@@ -91,6 +91,20 @@ function ChiSono() {
           </div>
         </div>
       </section>
+      
+      <section className="cta-section">
+        <div className="cta-container">
+          <h2>Hai bisogno di ulteriori informazioni?</h2>
+          <p>
+          Desideri maggiori informazioni sui percorsi disponibili?
+          Contattami per una consulenza gratuita e scopriamo insieme come accompagnare
+          al meglio i bambini nel loro percorso di crescita.
+          </p>
+          <Link to="/contatti" className="btn-primary">
+            Contattami ora
+          </Link>
+        </div>
+      </section>
 
     </div>
   );
