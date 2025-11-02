@@ -414,21 +414,4 @@
     }
   }
 
-  
-  @media screen and (max-width: 480px) {
-    .nav-buttons-container {
-      grid-template-columns: 1fr;
-    }
-    
-    .nav-button {
-      padding: 35px 20px;
-    }
-    
-    .hero h1 {
-      font-size: 2rem;
-    }
-    
-    .hero p {
-      font-size: 1rem;
-    }
-  }
+
