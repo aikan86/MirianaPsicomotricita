@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/ChiSono.css';
 
 import educativaImg from '../images/educativa.jpg';
@@ -61,7 +62,6 @@ function ChiSono() {
         </div>
       </section>
 
-
       <section className="philosophy-section">
         <div className="philosophy-container">
           <h2>La mia filosofia professionale</h2>
@@ -91,14 +91,14 @@ function ChiSono() {
           </div>
         </div>
       </section>
-      
+
       <section className="cta-section">
         <div className="cta-container">
           <h2>Hai bisogno di ulteriori informazioni?</h2>
           <p>
-          Desideri maggiori informazioni sui percorsi disponibili?
-          Contattami per una consulenza gratuita e scopriamo insieme come accompagnare
-          al meglio i bambini nel loro percorso di crescita.
+            Desideri maggiori informazioni sui percorsi disponibili?
+            Contattami per una consulenza gratuita e scopriamo insieme come accompagnare
+            al meglio i bambini nel loro percorso di crescita.
           </p>
           <Link to="/contatti" className="btn-primary">
             Contattami ora
