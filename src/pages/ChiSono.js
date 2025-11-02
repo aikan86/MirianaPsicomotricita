@@ -92,19 +92,6 @@ function ChiSono() {
         </div>
       </section>
 
-      <section className="certifications-section">
-        <div className="certifications-container">
-          <h2>Certificazioni e affiliazioni</h2>
-          <ul className="certifications-list">
-            <li>Laurea in Scienze Motorie - Università di [Nome]</li>
-            <li>Specializzazione in Psicomotricità - [Istituto]</li>
-            <li>Certificazione in Integrazione Sensoriale</li>
-            <li>Membro dell'Associazione Italiana di Psicomotricità</li>
-            <li>Formazione avanzata in Psicomotricità Relazionale</li>
-            <li>Certificazione in Tecniche di Rilassamento per l'Età Evolutiva</li>
-          </ul>
-        </div>
-      </section>
     </div>
   );
 }
