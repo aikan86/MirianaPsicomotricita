@@ -36,7 +36,7 @@ function Home() {
             </p>
             <p>
               Considero importante comprendere le straordinarie potenzialità del corpo, il canale 
-              con il quale esplorare e conoscere l’ambiente ma anche e soprattutto con il quale è possibile esprimere se stessi.
+              con il quale esplorare e conoscere l'ambiente ma anche e soprattutto con il quale è possibile esprimere se stessi.
             </p>
             <p>
               È questo il motivo che mi ha spinto prima a laurearmi in <strong>Scienze delle Attività Motorie e Sportive</strong> 
@@ -54,55 +54,6 @@ function Home() {
           <div className="welcome-image">
             <img src="/images/miriana-profile.jpg" alt="Miriana Ferro" />
           </div>
-        </div>
-      </section>
-
-      {/* Services Preview */}
-      <section className="services-preview">
-        <h2>I miei servizi</h2>
-        <div className="services-container">
-          <div className="service-card">
-            <div className="service-icon">
-              <i className="fas fa-child"></i>
-            </div>
-            <h3>Psicomotricità per bambini (3-13 anni)</h3>
-            <p><strong>Ambito educativo</strong></p>
-            <p>
-              Percorsi di prevenzione e sviluppo armonico per favorire il benessere globale del bambino,
-              sostenendo la sua crescita motoria, emotiva e relazionale.
-            </p>
-            
-            <p><strong>Ambito di aiuto</strong></p>
-            <p>
-              Interventi gruppo per bambini che vivono difficoltà emotive, relazionali o comportamentali.
-              L’obiettivo è offrire uno spazio sicuro dove il bambino possa esprimere, comprendere e
-              trasformare le proprie esperienze interiori.
-            </p>
-            <Link to="/servizi" className="service-link">
-              Scopri di più
-            </Link>
-          </div>
-          
-          <div className="service-card">
-            <div className="service-icon">
-              <i className="fas fa-users"></i>
-            </div>
-            <h3>Progetti per le scuole</h3>
-            <p>
-              Collaboro con scuole dell’infanzia, primarie e secondarie di primo grado per la realizzazione di
-              <strong>progetti di psicomotricità educativa</strong>.
-              Gli incontri vengono adattati agli obiettivi della classe, promuovendo la cooperazione, la
-              gestione delle emozioni e l’inclusione.
-            </p>
-            <Link to="/servizi" className="service-link">
-              Scopri di più
-            </Link>
-          </div>
-        </div>
-        <div className="services-cta">
-          <Link to="/servizi" className="btn-primary">
-            Tutti i servizi
-          </Link>
         </div>
       </section>
 
