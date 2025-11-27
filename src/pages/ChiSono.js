@@ -64,20 +64,18 @@ function ChiSono() {
 
       <section className="philosophy-section">
         <div className="philosophy-container">
-          <h2>La mia filosofia professionale</h2>
+          <h2>Il mio approccio</h2>
           <div className="philosophy-content">
             <div className="philosophy-text">
               <p>
-                Il mio approccio alla psicomotricità si basa sul rispetto profondo dell'unicità 
-                di ogni persona e del suo ritmo di sviluppo. Credo fermamente che ognuno possieda 
-                risorse interiori che, se opportunamente stimolate e valorizzate, possono portare 
-                a un miglioramento significativo della qualità della vita.
+                Il mio lavoro si ispira all’approccio psicomotorio di <strong> Bernard Aucouturier </strong> che mette al centro il <strong>piacere di agire, giocare e creare</strong>.
+                Attraverso il <strong>gioco simbolico</strong> e il <strong>movimento spontaneo</strong>, il bambino può elaborare emozioni, rappresentare la propria storia
+                e costruire un’immagine positiva di sé.
               </p>
               <p>
-                Lavoro con un approccio integrato che combina diverse metodologie, adattandole 
-                alle esigenze specifiche di ciascun individuo. Il mio obiettivo è creare un ambiente 
-                sicuro e accogliente dove ciascuno possa esprimersi liberamente attraverso il movimento, 
-                scoprendo nuove possibilità e superando eventuali difficoltà.
+                In questo percorso, l’adulto non dirige ma In questo percorso, l’adulto non dirige ma <strong>accompagna con ascolto e presenza</strong>, offrendo uno spazio sicuro in cui ogni bambino possa esprimersi, esplorare e crescere secondo i propri tempi.È un’esperienza che unisce corpo, emozione e pensiero, favorendo una crescita armonica e autenticaaccompagna con ascolto e presenza, offrendo uno spazio sicuro in cui ogni bambino possa esprimersi, 
+                esplorare e crescere secondo i propri tempi.
+                È un’esperienza che unisce corpo, emozione e pensiero, favorendo una crescita armonica e autentica.
               </p>
               <p>
                 Ritengo fondamentale coinvolgere attivamente la famiglia e gli educatori nel percorso, 
