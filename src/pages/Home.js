@@ -6,10 +6,10 @@ function Home() {
   return (
     <div className="home">
       {/* Hero Section */}
-      <section className="hero">
+      <section className="hero"><
         <div className="hero-container">
           <h1>Psicomotricità</h1>
-          <p>Crescere attraverso il movimento e la relazione</p>
+          <p>è uno spazio per crescere</p>
           <div className="hero-btns">
             <Link to="/contatti" className="btn-primary">
               Prenota una consulenza
@@ -27,24 +27,21 @@ function Home() {
           <div className="welcome-text">
             <h2>Benvenuti nel mio mondo</h2>
             <p>
-              Sono Miriana Ferro, chinesiologa e psicomotricista relazionale in ambito educativo e preventivo.
-              Mi occupo del benessere dei bambini e dei loro genitori.
+              Sono Miriana e attraverso il gioco, il movimento e la relazione accompagno i bambini nel loro percorso di sviluppo,
+              aiutandoli a conoscere se stessi, esprimere le emozioni e costruire fiducia nelle proprie capacità.
             </p>
             <p>
-              Mi piace occuparmi delle persone, sono appassionata del benessere e del movimento 
-              in tutte le sue forme.
+              Uno spazio sicuro in cui ogni bambino può sentirsi accolto e libero di esplorare, creare e crescere.
             </p>
             <p>
-              Considero importante comprendere le straordinarie potenzialità del corpo, il canale 
-              con il quale esplorare e conoscere l'ambiente ma anche e soprattutto con il quale è possibile esprimere se stessi.
+              <strong>La mia filosofia: </strong>La mia filosofia
             </p>
             <p>
-              È questo il motivo che mi ha spinto prima a laurearmi in <strong>Scienze delle Attività Motorie e Sportive</strong> 
-              e successivamente a specializzarmi in <strong>Psicomotricità Relazionale</strong>.
+              Mi piace dire che aiuto i bambini a fiorire.Come un giardiniere prepara il terreno perché ogni pianta cresca secondo la propria natura,
+              così creo uno spazio accogliente dove ogni bambino possa sentirsi riconosciuto e valorizzato.
             </p>
             <p>
-              Lavorare con i bambini è ciò che mi è più naturale e mi appaga in assoluto, farlo
-              attraverso il gioco psicomotorio è il modo che preferisco!
+              Credo profondamente che ogni bambino porti già con sé risorse preziose: il mio compito è sostenerle, rispettando tempi, ritmi e unicità.
             </p>
             
             <Link to="/chi-sono" className="btn-text">
