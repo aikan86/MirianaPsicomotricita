@@ -26,15 +26,14 @@ function ChiSono() {
             <h2>Miriana Ferro</h2>
             <h3>La mia filosofia</h3>
             <p>
-              Mi occupo della cura dei bambini, della cura della relazione con e tra essi, della cura delle famiglie. 
-              Mi piace dire che aiuto i bambini a fiorire e adesso vi spiego perché: Un bravo giardiniere assiste e crea le condizioni perché le sue piante fioriscano in salute: ha rispetto per il seme, <strong>sa che in esso sono contenute tutte le caratteristiche</strong> necessarie per crescere. 
-              Se, però, da una parte, è vero che le piante crescono da sole, dall'altra, <strong>la cura e l'attenzione fanno la differenza</strong>. Si tratta di preparare adeguatamente il terreno perché questo venga fuori naturalmente ed in equilibrio. Ed è proprio quello che faccio con la psicomotricità.
+              Sono chinesiologa e psicomotricista relazionale in ambito educativo e preventivo.
+              Lavoro per il benessere dei bambini e delle loro famiglie, unendo il movimento, l’ascolto e la cura della relazione.
             </p>
             <p>
-              Credo che ogni bambino porti in sé risorse preziose.
-              Il mio lavoro nasce dal desiderio di offrire uno spazio in cui possa sentirsi accolto, riconosciuto e libero di esprimersi.
-              Attraverso la relazione, il gioco e il rispetto dei suoi tempi, favorisco una crescita armonica e autentica.
+              Credo nel potere del corpo come primo canale di conoscenza e di espressione.
+              Per questo, dopo la laurea in Scienze Motorie, mi sono specializzata in Psicomotricità Relazionale.
             </p>
+            <p> Lavorare con i bambini è ciò che sento più naturale: accompagnarli nel gioco psicomotorio è il modo più autentico che conosco per sostenerli nella crescita.</p>
             <div className="profile-quote">
               <blockquote>
                 "da pensare spermegacitazione con i controcazzi"
