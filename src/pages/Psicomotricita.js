@@ -8,21 +8,20 @@ function Psicomotricita() {
       <section className="page-header">
         <div className="header-container">
           <h1>Cos'è la Psicomotricità</h1>
-          <p>Scopri i principi, i benefici e le applicazioni di questa disciplina</p>
+          <p>Scopri i principi e i benefici di questa disciplina</p>
         </div>
       </section>
 
       <section className="intro-section">
         <div className="intro-container">
           <div className="intro-text">
-            <h2>La psicomotricità: un approccio integrato</h2>
+            <h2>I principi fondamentali</h2>
             <p>
-              La psicomotricità è una disciplina che considera la persona nella sua globalità, 
-              riconoscendo la profonda interconnessione tra aspetti motori, cognitivi, emotivi e relazionali.
+              <strong> Il piacere di agire </strong> 
             </p>
             <p>
-              Partendo dal presupposto che corpo e mente sono inscindibili, la psicomotricità 
-              valorizza il movimento come strumento di espressione, comunicazione e apprendimento.
+              Il movimento e il gioco sono il punto di partenza di ogni scoperta.
+              Dal piacere di muoversi nasce la fiducia in sé e nel mondo.
             </p>
             <p>
               Attraverso esperienze corporee guidate, questa disciplina favorisce lo sviluppo 
