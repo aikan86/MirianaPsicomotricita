@@ -13,7 +13,7 @@ function ChiSono() {
       <section className="page-header">
         <div className="header-container">
           <h1>Chi Sono</h1>
-          <p>Conoscimi meglio: la mia storia, formazione e filosofia professionale</p>
+      
         </div>
       </section>
 
@@ -24,14 +24,14 @@ function ChiSono() {
           </div>
           <div className="profile-bio">
             <h2>Miriana Ferro</h2>
-            <h3>La mia filosofia</h3>
+           
             <p>
               Sono chinesiologa e psicomotricista relazionale in ambito educativo e preventivo.
               Lavoro per il benessere dei bambini e delle loro famiglie, unendo il movimento, l’ascolto e la cura della relazione.
             </p>
             <p>
               Credo nel potere del corpo come primo canale di conoscenza e di espressione.
-              Per questo, dopo la laurea in Scienze Motorie, mi sono specializzata in Psicomotricità Relazionale.
+              Per questo, dopo la laurea in <strong>Scienze Motorie</strong>, mi sono specializzata in <strong>Psicomotricità relazionale educativa</strong>
             </p>
             <p> Lavorare con i bambini è ciò che sento più naturale: accompagnarli nel gioco psicomotorio è il modo più autentico che conosco per sostenerli nella crescita.</p>
             <div className="profile-quote">
@@ -72,12 +72,12 @@ function ChiSono() {
                 e costruire un’immagine positiva di sé.
               </p>
               <p>
-                In questo percorso, l’adulto non dirige ma In questo percorso, l’adulto non dirige ma <strong>accompagna con ascolto e presenza</strong>, offrendo uno spazio sicuro in cui ogni bambino possa esprimersi, esplorare e crescere secondo i propri tempi.È un’esperienza che unisce corpo, emozione e pensiero, favorendo una crescita armonica e autenticaaccompagna con ascolto e presenza, offrendo uno spazio sicuro in cui ogni bambino possa esprimersi, 
+                In questo percorso, l’adulto non dirige ma <strong>accompagna con ascolto e presenza</strong>, offrendo uno spazio sicuro in cui ogni bambino possa esprimersi, esplorare e crescere secondo i propri tempi.È un’esperienza che unisce corpo, emozione e pensiero, favorendo una crescita armonica e autenticaaccompagna con ascolto e presenza, offrendo uno spazio sicuro in cui ogni bambino possa esprimersi, 
                 esplorare e crescere secondo i propri tempi.
                 È un’esperienza che unisce corpo, emozione e pensiero, favorendo una crescita armonica e autentica.
               </p>
               <p>
-                Ritengo fondamentale coinvolgere attivamente la famiglia e gli educatori nel percorso, 
+                Ritengo fondamentale coinvolgere attivamente <strong>la famiglia, gli educatori e gli insegnanti</strong> nel percorso, 
                 creando una rete di supporto che possa sostenere il processo di crescita e sviluppo anche 
                 al di fuori delle sessioni di psicomotricità.
               </p>
