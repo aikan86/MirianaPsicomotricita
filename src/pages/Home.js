@@ -9,7 +9,7 @@ function Home() {
       <section className="hero"><
         <div className="hero-container">
           <h1>Psicomotricità</h1>
-          <p>è uno spazio per crescere</p>
+          <p>uno spazio per crescere</p>
           <div className="hero-btns">
             <Link to="/contatti" className="btn-primary">
               Prenota una consulenza
@@ -28,16 +28,15 @@ function Home() {
             <h2>Benvenuti nel mio mondo</h2>
             <p>
               Sono Miriana e attraverso il gioco, il movimento e la relazione accompagno i bambini nel loro percorso di sviluppo,
-              aiutandoli a conoscere se stessi, esprimere le emozioni e costruire fiducia nelle proprie capacità.
+              aiutandoli a conoscere se stessi, esprimere le emozioni e costruire fiducia nelle proprie capacità
+              in uno spazio sicuro in cui ogni bambino può sentirsi accolto e libero di esplorare, creare e crescere.
+            </p>
+          
+            <p>
+              <strong>La mia filosofia: </strong>
             </p>
             <p>
-              Uno spazio sicuro in cui ogni bambino può sentirsi accolto e libero di esplorare, creare e crescere.
-            </p>
-            <p>
-              <strong>La mia filosofia: </strong>La mia filosofia
-            </p>
-            <p>
-              Mi piace dire che aiuto i bambini a fiorire.Come un giardiniere prepara il terreno perché ogni pianta cresca secondo la propria natura,
+              Mi piace dire che <strong>aiuto i bambini a fiorire</strong>: come un giardiniere prepara il terreno perché ogni pianta cresca secondo la propria natura,
               così creo uno spazio accogliente dove ogni bambino possa sentirsi riconosciuto e valorizzato.
             </p>
             <p>
