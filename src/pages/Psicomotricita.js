@@ -7,8 +7,8 @@ function Psicomotricita() {
     <div className="psicomotricita">
       <section className="page-header">
         <div className="header-container">
-          <h1>La Psicomotricità</h1>
-          <p>E' UNO SPAZIO PER CRESCERE</p>
+          <h1>Cos'è la Psicomotricità?</h1>
+          <p>E' uno spazio per crescere!</p>
         </div>
       </section>
 
@@ -16,9 +16,7 @@ function Psicomotricita() {
         <div className="intro-container">
           <div className="intro-text">
             <h2>Il suo più grande obiettivo è:</h2>
-            <p>
-              <strong> Il piacere di agire </strong>
-            </p>
+           
             <p>
               Favorire lo <strong>sviluppo armonico</strong> del bambino, sostenendolo ed accompagnandolo durante il suo processo di crescita.
             </p>
@@ -31,7 +29,7 @@ function Psicomotricita() {
 
       <section className="principles-section">
         <div className="principles-container">
-          <h2>Principi fondamentali</h2>
+          <h2>Cosa permette al bambino di fare</h2>
           <div className="principles-grid">
             
             <div className="principle-card">
@@ -109,7 +107,11 @@ function Psicomotricita() {
 
       <section className="benefits-section">
         <div className="benefits-container">
-          <h2>Benefici della psicomotricità</h2>
+          <h2>E' un percorso alla scoperta della propria identità</h2>
+            <p>
+              <strong> La psicomotricità è un trampolino di lancio per la crescita complessiva dei bambini, 
+                per prepararli ad affrontare in modo sano le sfide della vita. </strong>
+            </p>
 
           <div className="age-group">
             <h3>Per i bambini</h3>
