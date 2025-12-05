@@ -7,27 +7,22 @@ function Psicomotricita() {
     <div className="psicomotricita">
       <section className="page-header">
         <div className="header-container">
-          <h1>Cos'è la Psicomotricità</h1>
-          <p>Scopri i principi e i benefici di questa disciplina</p>
+          <h1>La Psicomotricità</h1>
+          <p>E' UNO SPAZIO PER CRESCERE</p>
         </div>
       </section>
 
       <section className="intro-section">
         <div className="intro-container">
           <div className="intro-text">
-            <h2>I principi fondamentali</h2>
+            <h2>Il suo più grande obiettivo è:</h2>
             <p>
               <strong> Il piacere di agire </strong> 
             </p>
-            <p>
-              Il movimento e il gioco sono il punto di partenza di ogni scoperta.
-              Dal piacere di muoversi nasce la fiducia in sé e nel mondo.
+            <p> 
+              Favorire lo <strong>sviluppo armonico</strong> del bambino, sostenendolo ed accompagnandolo durante il suo processo di crescita.
             </p>
-            <p>
-              Attraverso esperienze corporee guidate, questa disciplina favorisce lo sviluppo 
-              armonico della persona, promuovendo una migliore conoscenza di sé, delle proprie 
-              potenzialità e dei propri limiti.
-            </p>
+            
           </div>
           <div className="intro-image">
             <img src="/images/psicomotricita-intro.jpg" alt="Psicomotricità" />
@@ -42,9 +37,11 @@ function Psicomotricita() {
               <div className="principle-icon">
                 <i className="fas fa-brain"></i>
               </div>
-              <h3>Il piacere di agire</h3>
+              <h3>Esplorare</h3>
               <p>
-                Il movimento e il gioco sono il punto di partenza di ogni scoperta. Dal piacere di muoversi nasce la fiducia in sé e nel mondo.
+                I bambini possono sviluppare una maggiore consapevolezza di sè tramite l’esplorazione del <strong>corpo</strong>, 
+                la scoperta delle proprie <strong>emozioni</strong> e l’espressione dei propri <strong>bisogni</strong>.
+                Il <strong>gioco</strong> e il <strong>movimento</strong> sono le vie privilegiate per farlo!
               </p>
             </div>
             
@@ -52,9 +49,11 @@ function Psicomotricita() {
               <div className="principle-icon">
                 <i className="fas fa-user"></i>
               </div>
-              <h3>La sicurezza affettiva</h3>
+              <h3>Valorizzare</h3>
               <p>
-                In un ambiente accogliente e stabile, il bambino si sente libero di esprimere ciò che vive, sperimentando senza timore di sbagliare, rispettando l'unicità di ciascuno.
+                La psicomotricità attribuisce <strong>importanza ai punti di forza</strong> dei singoli bambini.
+                In questo modo contribuisce a sviluppare una <strong>sana autostima</strong>: attraverso il successo nelle attività psicomotorie, 
+                i bambini sviluppano una maggiore fiducia in se stessi.
                             </p>
             </div>
             
@@ -62,9 +61,10 @@ function Psicomotricita() {
               <div className="principle-icon">
                 <i className="fas fa-hands"></i>
               </div>
-              <h3>Il gioco simbolico</h3>
+              <h3>Sostenere</h3>
               <p>
-                Giocando, il bambino dà forma alle proprie emozioni e rielabora vissuti profondi in modo creativo e trasformativo.
+                Anche quando si affontano sifde, la psicomotricità è un prezioso supporto.
+                Attraverso situazioni di gioco, i bambini imparano a <strong>superare le difficoltà, scoprendo nuove soluzioni</strong>, spesso in modo creativo e strategico.
               </p>
             </div>
             
@@ -72,9 +72,11 @@ function Psicomotricita() {
               <div className="principle-icon">
                 <i className="fas fa-heart"></i>
               </div>
-              <h3>La relazione</h3>
+              <h3>RICONOSCERE</h3>
               <p>
-                La presenza empatica dell’adulto sostiene il percorso del bambino, valorizzando ciò che è e accompagnandolo verso nuove conquiste.
+                Qui, ogni emozione viene legittimata e riconosciuta al bambino. 
+                I bambini imparano che tutte le emozioni sono importanti e cominciano a sviluppare la capacità di riconoscerle.
+                Questo contribuisce a <strong>facilitare l’abilità di affrontare e gestire in modo sano le proprie emozioni.</strong>
               </p>
             </div>
           </div>
