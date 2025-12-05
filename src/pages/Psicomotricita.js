@@ -113,138 +113,45 @@ function Psicomotricita() {
                 per prepararli ad affrontare in modo sano le sfide della vita. </strong>
             </p>
 
-          <div className="age-group">
-            <h3>Per i bambini</h3>
-            <ul className="benefits-list">
-              <li>Sviluppo di competenze motorie di base</li>
-              <li>Miglioramento della coordinazione e dell'equilibrio</li>
-              <li>Potenziamento dell'attenzione e della concentrazione</li>
-              <li>Sviluppo della consapevolezza corporea e spaziale</li>
-              <li>Espressione e regolazione delle emozioni</li>
-              <li>Promozione dell'autonomia e dell'autostima</li>
-              <li>Prevenzione di difficoltà di apprendimento</li>
-              <li>Sviluppo di competenze sociali e relazionali</li>
-            </ul>
-          </div>
-
-          <div className="age-group">
-            <h3>Per gli adolescenti</h3>
-            <ul className="benefits-list">
-              <li>Accettazione dei cambiamenti corporei</li>
-              <li>Gestione dello stress e dell'ansia</li>
-              <li>Miglioramento dell'immagine corporea</li>
-              <li>Potenziamento dell'autostima</li>
-              <li>Sviluppo di competenze comunicative</li>
-              <li>Gestione delle emozioni intense</li>
-            </ul>
-          </div>
-
-          <div className="age-group">
-            <h3>Per gli adulti</h3>
-            <ul className="benefits-list">
-              <li>Riduzione dello stress e delle tensioni</li>
-              <li>Miglioramento della consapevolezza corporea</li>
-              <li>Recupero del benessere psicofisico</li>
-              <li>Potenziamento delle capacità espressive</li>
-              <li>Miglioramento delle relazioni interpersonali</li>
-              <li>Prevenzione di disturbi psicosomatici</li>
-            </ul>
-          </div>
-
-          <div className="age-group">
-            <h3>Per gli anziani</h3>
-            <ul className="benefits-list">
-              <li>Mantenimento delle capacità funzionali</li>
-              <li>Prevenzione del declino cognitivo</li>
-              <li>Miglioramento dell'equilibrio e prevenzione delle cadute</li>
-              <li>Stimolazione della socializzazione</li>
-              <li>Contrasto all'isolamento sociale</li>
-              <li>Miglioramento del tono dell'umore</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+          
 
       <section className="approaches-section">
         <div className="approaches-container">
-          <h2>Approcci metodologici</h2>
-          <p className="approaches-intro">
-            La psicomotricità si avvale di diversi approcci metodologici, che possono essere
-            utilizzati in modo integrato in base alle esigenze specifiche:
-          </p>
-
+          <h2>I principi fondamentali</h2>
+         
           <div className="approach-card">
-            <h3>Psicomotricità funzionale</h3>
+            <h3>Il piacere di agire</h3>
             <p>
-              Focalizzata sullo sviluppo delle funzioni psicomotorie (coordinazione, equilibrio,
-              organizzazione spazio-temporale, ecc.), utilizza esercizi strutturati per potenziare
-              abilità specifiche. È particolarmente indicata per difficoltà motorie o disturbi
-              dell'apprendimento.
+              Il movimento e il gioco sono il punto di partenza di ogni scoperta.
+              Dal piacere di muoversi nasce la fiducia in sé e nel mondo.
             </p>
           </div>
 
           <div className="approach-card">
-            <h3>Psicomotricità relazionale</h3>
+            <h3>La relazione</h3>
             <p>
-              Centrata sulla dimensione emotiva e relazionale, valorizza il gioco spontaneo
-              come strumento di espressione e comunicazione. Attraverso materiali destrutturati
-              e la relazione con il psicomotricista, favorisce l'espressione di emozioni e
-              la costruzione di una positiva immagine di sé.
+              La presenza empatica dell’adulto sostiene il percorso del bambino, 
+              valorizzando ciò che è e accompagnandolo verso nuove conquiste.
             </p>
           </div>
 
           <div className="approach-card">
-            <h3>Integrazione sensoriale</h3>
+            <h3>La sicurezza affettiva</h3>
             <p>
-              Si concentra sull'elaborazione e l'integrazione degli stimoli sensoriali, aiutando
-              la persona a rispondere in modo adeguato agli input ambientali. Particolarmente
-              efficace per disturbi dell'elaborazione sensoriale e alcune condizioni neurodivergenti.
+              In un ambiente accogliente e stabile, 
+              il bambino si sente libero di esprimere ciò che vive, sperimentando senza timore di sbagliare.
+            </p>
+          </div>
+
+          <div className="approach-card">
+            <h3>Il gioco simbolico</h3>
+            <p>
+              Giocando, il bambino dà forma alle proprie emozioni e rielabora vissuti profondi in modo creativo e trasformativo.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="science-section">
-        <div className="science-container">
-          <h2>Basi scientifiche</h2>
-          <div className="science-content">
-            <div className="science-text">
-              <p>
-                La psicomotricità affonda le sue radici in solide basi scientifiche, integrando
-                conoscenze provenienti da diverse discipline:
-              </p>
-              <ul>
-                <li>
-                  <strong>Neuroscienze:</strong> confermano la stretta connessione tra movimento
-                  e funzioni cognitive, evidenziando come l'attività motoria influenzi lo sviluppo
-                  cerebrale e l'apprendimento
-                </li>
-                <li>
-                  <strong>Psicologia dello sviluppo:</strong> fornisce il quadro teorico sulle
-                  tappe evolutive e sull'importanza dell'esperienza corporea nello sviluppo
-                  cognitivo, emotivo e sociale
-                </li>
-                <li>
-                  <strong>Scienze motorie:</strong> contribuiscono con conoscenze specifiche
-                  sul movimento umano, le capacità coordinative e gli aspetti biomeccanici
-                </li>
-                <li>
-                  <strong>Pedagogia:</strong> offre principi e strategie educative che valorizzano
-                  il corpo come strumento di apprendimento e sviluppo integrale della persona
-                </li>
-              </ul>
-              <p>
-                Numerosi studi evidenziano l'efficacia della psicomotricità in diversi ambiti,
-                dalla prevenzione all'intervento in situazioni di difficoltà, confermando
-                i benefici di un approccio che integra corpo, mente ed emozioni.
-              </p>
-            </div>
-            <div className="science-image">
-              <img src="/images/science-basis.jpg" alt="Basi scientifiche" />
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="faq-section">
         <div className="faq-container">
