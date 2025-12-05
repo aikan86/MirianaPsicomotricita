@@ -17,8 +17,20 @@ function Psicomotricita() {
           <div className="intro-text">
             <h2>Il suo più grande obiettivo è:</h2>
             <p>
-              Favorire lo <strong>sviluppo armonico</strong> del bambino, sostenendolo ed accompagnandolo durante il suo processo di crescita.
+              Favorire lo <strong>sviluppo armonico</strong> del bambino, sostenendolo ed accompagnandolo 
+              durante il suo processo di crescita. 
+              La psicomotricità valorizza i suoi <strong>punti di forza</strong> e lo sostiene nelle <strong>difficoltà</strong>, 
+              attraverso il gioco e la relazione.
             </p>
+            
+            <p>Con uno sguardo <strong>attento e sensibile</strong>, la psicomotricista osserva il modo in cui ogni 
+              bambino si muove, si esprime, entra in relazione e affronta le diverse situazioni di gioco.
+              Questo permette di individuare <strong>risorse e fatiche</strong>, adattando le proposte alle esigenze del 
+              singolo e del gruppo. 
+              In questo modo ogni bambino può sentirsi <strong>accolto, sostenuto e libero di esprimersi</strong>, 
+              trovando nel percorso uno spazio autentico di crescita.
+             </p>
+
           </div>
           <div className="intro-image">
             <img src="/images/psicomotricita-intro.jpg" alt="Psicomotricità" />
