@@ -16,7 +16,6 @@ function Psicomotricita() {
         <div className="intro-container">
           <div className="intro-text">
             <h2>Il suo più grande obiettivo è:</h2>
-           
             <p>
               Favorire lo <strong>sviluppo armonico</strong> del bambino, sostenendolo ed accompagnandolo durante il suo processo di crescita.
             </p>
@@ -108,12 +107,12 @@ function Psicomotricita() {
       <section className="benefits-section">
         <div className="benefits-container">
           <h2>E' un percorso alla scoperta della propria identità</h2>
-            <p>
-              <strong> La psicomotricità è un trampolino di lancio per la crescita complessiva dei bambini, 
-                per prepararli ad affrontare in modo sano le sfide della vita. </strong>
-            </p>
-
-          
+          <p>
+            <strong> La psicomotricità è un trampolino di lancio per la crescita complessiva dei bambini, 
+              per prepararli ad affrontare in modo sano le sfide della vita. </strong>
+          </p>
+        </div>
+      </section>
 
       <section className="approaches-section">
         <div className="approaches-container">
@@ -151,7 +150,6 @@ function Psicomotricita() {
           </div>
         </div>
       </section>
-
 
       <section className="faq-section">
         <div className="faq-container">
