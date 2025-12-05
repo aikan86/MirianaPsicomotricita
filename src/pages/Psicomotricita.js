@@ -28,7 +28,7 @@ function Psicomotricita() {
 
       <section className="principles-section">
         <div className="principles-container">
-          <h2>Cosa permette al bambino di fare</h2>
+          <h2>Cosa offre al bambino</h2>
           <div className="principles-grid">
             
             <div className="principle-card">
