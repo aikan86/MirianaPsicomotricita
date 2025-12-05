@@ -72,11 +72,29 @@ function Psicomotricita() {
               <div className="principle-icon">
                 <i className="fas fa-heart"></i>
               </div>
-              <h3>RICONOSCERE</h3>
+              <h3>Riconoscere</h3>
               <p>
                 Qui, ogni emozione viene legittimata e riconosciuta al bambino. 
                 I bambini imparano che tutte le emozioni sono importanti e cominciano a sviluppare la capacità di riconoscerle.
                 Questo contribuisce a <strong>facilitare l’abilità di affrontare e gestire in modo sano le proprie emozioni.</strong>
+              </p>
+                          <div className="principle-card">
+              <div className="principle-icon">
+                <i className="fas fa-heart"></i>
+              </div>
+              <h3>Creare e Immaginare</h3>
+              <p>
+               Sperimentando con il movimento e il gioco e utilizzando materiali non strutturati, i bambini coltivano la loro creatività e immaginazione. 
+               <strong>Creano</strong> storie, <strong>costruiscono</strong> fortezze, <strong>affrontano</strong> draghi e <strong>danno vita a creazioni straordinarie</strong>.
+              </p>
+                          <div className="principle-card">
+              <div className="principle-icon">
+                <i className="fas fa-heart"></i>
+              </div>
+              <h3>Socializzare e comunicare</h3>
+              <p>
+                La psicomotricità offre opportunità per interagire con gli altri bambini, 
+                permettendo loro si acquisire competenze sociali importanti come la <strong>condivisione e la cooperazione</strong>.
               </p>
             </div>
           </div>
