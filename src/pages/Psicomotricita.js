@@ -114,42 +114,7 @@ function Psicomotricita() {
         </div>
       </section>
 
-      <section className="approaches-section">
-        <div className="approaches-container">
-          <h2>I principi fondamentali</h2>
-         
-          <div className="approach-card">
-            <h3>Il piacere di agire</h3>
-            <p>
-              Il movimento e il gioco sono il punto di partenza di ogni scoperta.
-              Dal piacere di muoversi nasce la fiducia in sé e nel mondo.
-            </p>
-          </div>
-
-          <div className="approach-card">
-            <h3>La relazione</h3>
-            <p>
-              La presenza empatica dell’adulto sostiene il percorso del bambino, 
-              valorizzando ciò che è e accompagnandolo verso nuove conquiste.
-            </p>
-          </div>
-
-          <div className="approach-card">
-            <h3>La sicurezza affettiva</h3>
-            <p>
-              In un ambiente accogliente e stabile, 
-              il bambino si sente libero di esprimere ciò che vive, sperimentando senza timore di sbagliare.
-            </p>
-          </div>
-
-          <div className="approach-card">
-            <h3>Il gioco simbolico</h3>
-            <p>
-              Giocando, il bambino dà forma alle proprie emozioni e rielabora vissuti profondi in modo creativo e trasformativo.
-            </p>
-          </div>
-        </div>
-      </section>
+     
 
       <section className="faq-section">
         <div className="faq-container">
