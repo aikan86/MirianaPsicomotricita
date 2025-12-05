@@ -36,7 +36,7 @@ function ChiSono() {
             <p> Lavorare con i bambini è ciò che sento più naturale: accompagnarli nel gioco psicomotorio è il modo più autentico che conosco per sostenerli nella crescita.</p>
             <div className="profile-quote">
               <blockquote>
-                "da pensare spermegacitazione con i controcazzi"
+                "Ciò che il bambino può fare oggi con l'aiuto, domani sarà in grado di farlo da solo. Lev Vygotskij"
               </blockquote>
             </div>
           </div>
@@ -72,7 +72,7 @@ function ChiSono() {
                 e costruire un’immagine positiva di sé.
               </p>
               <p>
-                In questo percorso, l’adulto non dirige ma <strong>accompagna con ascolto e presenza</strong>, offrendo uno spazio sicuro in cui ogni bambino possa esprimersi, esplorare e crescere secondo i propri tempi. 
+                L’adulto non dirige ma <strong>accompagna con ascolto e presenza</strong>, offrendo uno spazio sicuro in cui ogni bambino possa esprimersi, esplorare e crescere secondo i propri tempi. 
                 È un’esperienza che unisce corpo, emozione e pensiero, favorendo una crescita armonica e autentica.
               </p>
               <p>
