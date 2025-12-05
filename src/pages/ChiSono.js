@@ -72,8 +72,7 @@ function ChiSono() {
                 e costruire un’immagine positiva di sé.
               </p>
               <p>
-                In questo percorso, l’adulto non dirige ma <strong>accompagna con ascolto e presenza</strong>, offrendo uno spazio sicuro in cui ogni bambino possa esprimersi, esplorare e crescere secondo i propri tempi.È un’esperienza che unisce corpo, emozione e pensiero, favorendo una crescita armonica e autenticaaccompagna con ascolto e presenza, offrendo uno spazio sicuro in cui ogni bambino possa esprimersi, 
-                esplorare e crescere secondo i propri tempi.
+                In questo percorso, l’adulto non dirige ma <strong>accompagna con ascolto e presenza</strong>, offrendo uno spazio sicuro in cui ogni bambino possa esprimersi, esplorare e crescere secondo i propri tempi. 
                 È un’esperienza che unisce corpo, emozione e pensiero, favorendo una crescita armonica e autentica.
               </p>
               <p>
