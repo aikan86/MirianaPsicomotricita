@@ -9,7 +9,7 @@ function Home() {
       <section className="hero">
         <div className="hero-container">
           <h1>Psicomotricità</h1>
-          <p>uno spazio per crescere</p>
+          <p>Crescere attraverso il movimento e la relazione</p>
           <div className="hero-btns">
             <Link to="/contatti" className="btn-primary">
               Prenota una consulenza
@@ -32,9 +32,7 @@ function Home() {
               in uno spazio sicuro in cui ogni bambino può sentirsi accolto e libero di esplorare, creare e crescere.
             </p>
           
-            <p>
-              <strong>La mia filosofia: </strong>
-            </p>
+          
             <p>
               Mi piace dire che <strong>aiuto i bambini a fiorire</strong>: come un giardiniere prepara il terreno perché ogni pianta cresca secondo la propria natura,
               così creo uno spazio accogliente dove ogni bambino possa sentirsi riconosciuto e valorizzato.
