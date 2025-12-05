@@ -42,10 +42,9 @@ function Psicomotricita() {
               <div className="principle-icon">
                 <i className="fas fa-brain"></i>
               </div>
-              <h3>Unità corpo-mente</h3>
+              <h3>Il piacere di agire</h3>
               <p>
-                Riconosce l'inscindibile legame tra sviluppo motorio, cognitivo ed emotivo, 
-                considerando la persona nella sua totalità.
+                Il movimento e il gioco sono il punto di partenza di ogni scoperta. Dal piacere di muoversi nasce la fiducia in sé e nel mondo.
               </p>
             </div>
             
@@ -53,21 +52,19 @@ function Psicomotricita() {
               <div className="principle-icon">
                 <i className="fas fa-user"></i>
               </div>
-              <h3>Centralità della persona</h3>
+              <h3>La sicurezza affettiva</h3>
               <p>
-                Rispetta l'unicità di ciascun individuo, adattando l'intervento alle 
-                specifiche caratteristiche e necessità.
-              </p>
+                In un ambiente accogliente e stabile, il bambino si sente libero di esprimere ciò che vive, sperimentando senza timore di sbagliare, rispettando l'unicità di ciascuno.
+                            </p>
             </div>
             
             <div className="principle-card">
               <div className="principle-icon">
                 <i className="fas fa-hands"></i>
               </div>
-              <h3>Apprendimento attraverso l'esperienza</h3>
+              <h3>Il gioco simbolico</h3>
               <p>
-                Promuove l'acquisizione di competenze attraverso l'esperienza diretta 
-                e il movimento, non solo attraverso l'istruzione verbale.
+                Giocando, il bambino dà forma alle proprie emozioni e rielabora vissuti profondi in modo creativo e trasformativo.
               </p>
             </div>
             
@@ -75,10 +72,9 @@ function Psicomotricita() {
               <div className="principle-icon">
                 <i className="fas fa-heart"></i>
               </div>
-              <h3>Dimensione relazionale</h3>
+              <h3>La relazione</h3>
               <p>
-                Valorizza la relazione come elemento fondamentale per lo sviluppo e il 
-                benessere, promuovendo capacità comunicative e sociali.
+                La presenza empatica dell’adulto sostiene il percorso del bambino, valorizzando ciò che è e accompagnandolo verso nuove conquiste.
               </p>
             </div>
           </div>
