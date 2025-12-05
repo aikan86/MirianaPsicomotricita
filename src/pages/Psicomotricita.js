@@ -156,41 +156,87 @@ function Psicomotricita() {
           <h2>Domande frequenti</h2>
 
           <div className="faq-item">
-            <h3>A chi si rivolge la psicomotricità?</h3>
+            <h3>La psicomotricità è solo per bambini con difficoltà o diagnosi?</h3>
             <p>
-              La psicomotricità si rivolge a persone di tutte le età, dai bambini agli anziani.
-              Può essere proposta sia come percorso educativo e preventivo, sia come intervento
-              specifico in presenza di difficoltà o disturbi.
+              <strong>No.</strong> È un’attività educativa e preventiva rivolta a <strong>tutti i bambini</strong>.
+              È uno spazio per conoscersi meglio, crescere, esprimere le emozioni e 
+              sviluppare una relazione positiva con sé stessi e con gli altri.
+            </p>
+          </div>
+
+ <div className="faq-item">
+            <h3>Come capire se la psicomotricità fa per mio figlio?</h3>
+            <p>
+              La psicomotricità è indicata per tutti i bambini, come spazio di crescita, gioco ed espressione.
+              Può essere particolarmente utile se il bambino mostra difficoltà a gestire le emozioni, 
+              fatica nelle relazioni, insicurezze, agitazione, blocchi o comportamenti intensi. 
+              A volte i genitori sentono semplicemente che il loro bambino avrebbe bisogno di uno spazio 
+              protetto in cui essere accolto, ascoltato e sostenuto: anche questo è un ottimo motivo per iniziare. 
+              Un primo colloquio conoscitivo aiuta sempre a capire insieme se la psicomotricità è l’esperienza 
+              giusta in quel momento del percorso del bambino.
             </p>
           </div>
 
           <div className="faq-item">
-            <h3>Quanto dura un percorso di psicomotricità?</h3>
+            <h3>A cosa servono gli incontri?</h3>
             <p>
-              La durata varia in base agli obiettivi e alle necessità specifiche. Un percorso
-              preventivo/educativo può durare alcuni mesi, mentre interventi specifici possono
-              richiedere tempi più lunghi. Ogni situazione viene valutata individualmente.
+              Gli incontri permettono di <strong>esprimere bisogni, emozioni, paure e desideri attraverso 
+              il corpo e il gioco</strong>, in un ambiente che accoglie e sostiene.
+              Aiutano a sviluppare maggiore conoscenza di sé, capacità di gestione delle emozioni, 
+              tolleranza alla frustrazione e competenze relazionali.
+
+              Creano un ambiente protetto per quei bambini che faticano a gestire emozioni intense, 
+              manifestando blocchi o comportamenti esplosivi. 
+              Qui trovano <strong>contenimento, sostegno e strumenti per affrontare le difficoltà.</strong>
             </p>
           </div>
 
           <div className="faq-item">
             <h3>Come si svolge una seduta di psicomotricità?</h3>
             <p>
-              Una seduta tipo dura circa 45-60 minuti e si svolge in uno spazio appositamente
-              attrezzato. Include solitamente una fase di accoglienza, un momento centrale
-              dedicato ad attività specifiche o al gioco psicomotorio, e una fase finale di
-              rilassamento e verbalizzazione dell'esperienza.
+             Gli incontri si svolgono in uno spazio accogliente, sicuro e ricco di materiali che 
+             invitano al movimento e alla creatività. 
+             Pur essendo ogni incontro diverso, la struttura resta costante per aiutare il bambino a 
+             sentirsi contenuto e orientato. 
+             Durante il percorso si lavorano temi come la percezione di sé e del corpo, la relazione 
+             con lo spazio e il tempo, la capacità simbolica e la gestione delle emozioni.
+            </p>
+          </div>
+
+<div className="faq-item">
+            <h3>I genitori sono coinvolti?</h3>
+            <p>
+              <strong>Sì</strong>.
+              I genitori sono parte integrante del percorso: <strong>colloqui periodici</strong> permettono 
+              di condividere osservazioni, evoluzioni e bisogni, così da creare una continuità tra la sala 
+              di psicomotricità e la vita quotidiana.
+              Se emerge la necessità, è possibile organizzare <strong>incontri genitore–bambino</strong>, 
+              in cui si condivide l’esperienza di gioco e si rafforza la relazione.
             </p>
           </div>
 
           <div className="faq-item">
-            <h3>Qual è la differenza tra psicomotricità e fisioterapia?</h3>
+            <h3>La psicomotricità è ginnastica?</h3>
             <p>
-              Mentre la fisioterapia si concentra principalmente sugli aspetti fisici e
-              funzionali del movimento, la psicomotricità considera la persona nella sua
-              globalità, integrando aspetti motori, cognitivi, emotivi e relazionali.
+             <strong>No.</strong>
+
+            La psicomotricità non è ginnastica né educazione motoria: non mira alla performance 
+            ma <strong>accoglie il corpo come mezzo di relazione, espressione e autoregolazione.</strong>
             </p>
           </div>
+
+          <div className="faq-item">
+            <h3>Qual è la differenza tra psicomotricità e neuropsicomotricità?</h3>
+            <p>
+             La <strong>psicomotricità è un’attività educativa e preventiva</strong>, che attraverso gioco, 
+             movimento e relazione sostiene lo sviluppo del bambino. 
+             Non è un intervento sanitario e si rivolge a tutti.
+             La <strong>neuropsicomotricità,</strong> invece, <strong>è una professione sanitaria</strong>: il TNPEE si occupa della 
+             valutazione e della riabilitazione di bambini con disturbi dello sviluppo.
+            </p>
+          </div>
+
+          
         </div>
       </section>
 
