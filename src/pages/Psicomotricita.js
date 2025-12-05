@@ -17,34 +17,35 @@ function Psicomotricita() {
           <div className="intro-text">
             <h2>Il suo più grande obiettivo è:</h2>
             <p>
-              <strong> Il piacere di agire </strong> 
+              <strong> Il piacere di agire </strong>
             </p>
-            <p> 
+            <p>
               Favorire lo <strong>sviluppo armonico</strong> del bambino, sostenendolo ed accompagnandolo durante il suo processo di crescita.
             </p>
-            
           </div>
           <div className="intro-image">
             <img src="/images/psicomotricita-intro.jpg" alt="Psicomotricità" />
           </div>
         </div>
       </section>
+
       <section className="principles-section">
         <div className="principles-container">
           <h2>Principi fondamentali</h2>
           <div className="principles-grid">
+            
             <div className="principle-card">
               <div className="principle-icon">
                 <i className="fas fa-brain"></i>
               </div>
               <h3>Esplorare</h3>
               <p>
-                I bambini possono sviluppare una maggiore consapevolezza di sè tramite l’esplorazione del <strong>corpo</strong>, 
+                I bambini possono sviluppare una maggiore consapevolezza di sè tramite l’esplorazione del <strong>corpo</strong>,
                 la scoperta delle proprie <strong>emozioni</strong> e l’espressione dei propri <strong>bisogni</strong>.
                 Il <strong>gioco</strong> e il <strong>movimento</strong> sono le vie privilegiate per farlo!
               </p>
             </div>
-            
+
             <div className="principle-card">
               <div className="principle-icon">
                 <i className="fas fa-user"></i>
@@ -52,51 +53,56 @@ function Psicomotricita() {
               <h3>Valorizzare</h3>
               <p>
                 La psicomotricità attribuisce <strong>importanza ai punti di forza</strong> dei singoli bambini.
-                In questo modo contribuisce a sviluppare una <strong>sana autostima</strong>: attraverso il successo nelle attività psicomotorie, 
+                In questo modo contribuisce a sviluppare una <strong>sana autostima</strong>: attraverso il successo nelle attività psicomotorie,
                 i bambini sviluppano una maggiore fiducia in se stessi.
-                            </p>
+              </p>
             </div>
-            
+
             <div className="principle-card">
               <div className="principle-icon">
                 <i className="fas fa-hands"></i>
               </div>
               <h3>Sostenere</h3>
               <p>
-                Anche quando si affontano sifde, la psicomotricità è un prezioso supporto.
+                Anche quando si affrontano sfide, la psicomotricità è un prezioso supporto.
                 Attraverso situazioni di gioco, i bambini imparano a <strong>superare le difficoltà, scoprendo nuove soluzioni</strong>, spesso in modo creativo e strategico.
               </p>
             </div>
-            
+
             <div className="principle-card">
               <div className="principle-icon">
                 <i className="fas fa-heart"></i>
               </div>
               <h3>Riconoscere</h3>
               <p>
-                Qui, ogni emozione viene legittimata e riconosciuta al bambino. 
+                Qui, ogni emozione viene legittimata e riconosciuta al bambino.
                 I bambini imparano che tutte le emozioni sono importanti e cominciano a sviluppare la capacità di riconoscerle.
                 Questo contribuisce a <strong>facilitare l’abilità di affrontare e gestire in modo sano le proprie emozioni.</strong>
               </p>
-                          <div className="principle-card">
+            </div>
+
+            <div className="principle-card">
               <div className="principle-icon">
-                <i className="fas fa-heart"></i>
+                <i className="fas fa-lightbulb"></i>
               </div>
               <h3>Creare e Immaginare</h3>
               <p>
-               Sperimentando con il movimento e il gioco e utilizzando materiali non strutturati, i bambini coltivano la loro creatività e immaginazione. 
-               <strong>Creano</strong> storie, <strong>costruiscono</strong> fortezze, <strong>affrontano</strong> draghi e <strong>danno vita a creazioni straordinarie</strong>.
+                Sperimentando con il movimento e il gioco e utilizzando materiali non strutturati, i bambini coltivano la loro creatività e immaginazione.
+                <strong>Creano</strong> storie, <strong>costruiscono</strong> fortezze, <strong>affrontano</strong> draghi e <strong>danno vita a creazioni straordinarie</strong>.
               </p>
-                          <div className="principle-card">
+            </div>
+
+            <div className="principle-card">
               <div className="principle-icon">
-                <i className="fas fa-heart"></i>
+                <i className="fas fa-users"></i>
               </div>
               <h3>Socializzare e comunicare</h3>
               <p>
-                La psicomotricità offre opportunità per interagire con gli altri bambini, 
-                permettendo loro si acquisire competenze sociali importanti come la <strong>condivisione e la cooperazione</strong>.
+                La psicomotricità offre opportunità per interagire con gli altri bambini,
+                permettendo loro di acquisire competenze sociali importanti come la <strong>condivisione e la cooperazione</strong>.
               </p>
             </div>
+
           </div>
         </div>
       </section>
@@ -104,7 +110,7 @@ function Psicomotricita() {
       <section className="benefits-section">
         <div className="benefits-container">
           <h2>Benefici della psicomotricità</h2>
-          
+
           <div className="age-group">
             <h3>Per i bambini</h3>
             <ul className="benefits-list">
@@ -118,7 +124,7 @@ function Psicomotricita() {
               <li>Sviluppo di competenze sociali e relazionali</li>
             </ul>
           </div>
-          
+
           <div className="age-group">
             <h3>Per gli adolescenti</h3>
             <ul className="benefits-list">
@@ -130,7 +136,7 @@ function Psicomotricita() {
               <li>Gestione delle emozioni intense</li>
             </ul>
           </div>
-          
+
           <div className="age-group">
             <h3>Per gli adulti</h3>
             <ul className="benefits-list">
@@ -142,7 +148,7 @@ function Psicomotricita() {
               <li>Prevenzione di disturbi psicosomatici</li>
             </ul>
           </div>
-          
+
           <div className="age-group">
             <h3>Per gli anziani</h3>
             <ul className="benefits-list">
@@ -161,35 +167,35 @@ function Psicomotricita() {
         <div className="approaches-container">
           <h2>Approcci metodologici</h2>
           <p className="approaches-intro">
-            La psicomotricità si avvale di diversi approcci metodologici, che possono essere 
+            La psicomotricità si avvale di diversi approcci metodologici, che possono essere
             utilizzati in modo integrato in base alle esigenze specifiche:
           </p>
-          
+
           <div className="approach-card">
             <h3>Psicomotricità funzionale</h3>
             <p>
-              Focalizzata sullo sviluppo delle funzioni psicomotorie (coordinazione, equilibrio, 
-              organizzazione spazio-temporale, ecc.), utilizza esercizi strutturati per potenziare 
-              abilità specifiche. È particolarmente indicata per difficoltà motorie o disturbi 
+              Focalizzata sullo sviluppo delle funzioni psicomotorie (coordinazione, equilibrio,
+              organizzazione spazio-temporale, ecc.), utilizza esercizi strutturati per potenziare
+              abilità specifiche. È particolarmente indicata per difficoltà motorie o disturbi
               dell'apprendimento.
             </p>
           </div>
-          
+
           <div className="approach-card">
             <h3>Psicomotricità relazionale</h3>
             <p>
-              Centrata sulla dimensione emotiva e relazionale, valorizza il gioco spontaneo 
-              come strumento di espressione e comunicazione. Attraverso materiali destrutturati 
-              e la relazione con il psicomotricista, favorisce l'espressione di emozioni e 
+              Centrata sulla dimensione emotiva e relazionale, valorizza il gioco spontaneo
+              come strumento di espressione e comunicazione. Attraverso materiali destrutturati
+              e la relazione con il psicomotricista, favorisce l'espressione di emozioni e
               la costruzione di una positiva immagine di sé.
             </p>
           </div>
-          
+
           <div className="approach-card">
             <h3>Integrazione sensoriale</h3>
             <p>
-              Si concentra sull'elaborazione e l'integrazione degli stimoli sensoriali, aiutando 
-              la persona a rispondere in modo adeguato agli input ambientali. Particolarmente 
+              Si concentra sull'elaborazione e l'integrazione degli stimoli sensoriali, aiutando
+              la persona a rispondere in modo adeguato agli input ambientali. Particolarmente
               efficace per disturbi dell'elaborazione sensoriale e alcune condizioni neurodivergenti.
             </p>
           </div>
@@ -202,32 +208,32 @@ function Psicomotricita() {
           <div className="science-content">
             <div className="science-text">
               <p>
-                La psicomotricità affonda le sue radici in solide basi scientifiche, integrando 
+                La psicomotricità affonda le sue radici in solide basi scientifiche, integrando
                 conoscenze provenienti da diverse discipline:
               </p>
               <ul>
                 <li>
-                  <strong>Neuroscienze:</strong> confermano la stretta connessione tra movimento 
-                  e funzioni cognitive, evidenziando come l'attività motoria influenzi lo sviluppo 
+                  <strong>Neuroscienze:</strong> confermano la stretta connessione tra movimento
+                  e funzioni cognitive, evidenziando come l'attività motoria influenzi lo sviluppo
                   cerebrale e l'apprendimento
-              </li>
-              <li>
-                  <strong>Psicologia dello sviluppo:</strong> fornisce il quadro teorico sulle 
-                  tappe evolutive e sull'importanza dell'esperienza corporea nello sviluppo 
+                </li>
+                <li>
+                  <strong>Psicologia dello sviluppo:</strong> fornisce il quadro teorico sulle
+                  tappe evolutive e sull'importanza dell'esperienza corporea nello sviluppo
                   cognitivo, emotivo e sociale
                 </li>
                 <li>
-                  <strong>Scienze motorie:</strong> contribuiscono con conoscenze specifiche 
+                  <strong>Scienze motorie:</strong> contribuiscono con conoscenze specifiche
                   sul movimento umano, le capacità coordinative e gli aspetti biomeccanici
                 </li>
                 <li>
-                  <strong>Pedagogia:</strong> offre principi e strategie educative che valorizzano 
+                  <strong>Pedagogia:</strong> offre principi e strategie educative che valorizzano
                   il corpo come strumento di apprendimento e sviluppo integrale della persona
                 </li>
               </ul>
               <p>
-                Numerosi studi evidenziano l'efficacia della psicomotricità in diversi ambiti, 
-                dalla prevenzione all'intervento in situazioni di difficoltà, confermando 
+                Numerosi studi evidenziano l'efficacia della psicomotricità in diversi ambiti,
+                dalla prevenzione all'intervento in situazioni di difficoltà, confermando
                 i benefici di un approccio che integra corpo, mente ed emozioni.
               </p>
             </div>
@@ -241,40 +247,40 @@ function Psicomotricita() {
       <section className="faq-section">
         <div className="faq-container">
           <h2>Domande frequenti</h2>
-          
+
           <div className="faq-item">
             <h3>A chi si rivolge la psicomotricità?</h3>
             <p>
-              La psicomotricità si rivolge a persone di tutte le età, dai bambini agli anziani. 
-              Può essere proposta sia come percorso educativo e preventivo, sia come intervento 
+              La psicomotricità si rivolge a persone di tutte le età, dai bambini agli anziani.
+              Può essere proposta sia come percorso educativo e preventivo, sia come intervento
               specifico in presenza di difficoltà o disturbi.
             </p>
           </div>
-          
+
           <div className="faq-item">
             <h3>Quanto dura un percorso di psicomotricità?</h3>
             <p>
-              La durata varia in base agli obiettivi e alle necessità specifiche. Un percorso 
-              preventivo/educativo può durare alcuni mesi, mentre interventi specifici possono 
+              La durata varia in base agli obiettivi e alle necessità specifiche. Un percorso
+              preventivo/educativo può durare alcuni mesi, mentre interventi specifici possono
               richiedere tempi più lunghi. Ogni situazione viene valutata individualmente.
             </p>
           </div>
-          
+
           <div className="faq-item">
             <h3>Come si svolge una seduta di psicomotricità?</h3>
             <p>
-              Una seduta tipo dura circa 45-60 minuti e si svolge in uno spazio appositamente 
-              attrezzato. Include solitamente una fase di accoglienza, un momento centrale 
-              dedicato ad attività specifiche o al gioco psicomotorio, e una fase finale di 
+              Una seduta tipo dura circa 45-60 minuti e si svolge in uno spazio appositamente
+              attrezzato. Include solitamente una fase di accoglienza, un momento centrale
+              dedicato ad attività specifiche o al gioco psicomotorio, e una fase finale di
               rilassamento e verbalizzazione dell'esperienza.
             </p>
           </div>
-          
+
           <div className="faq-item">
             <h3>Qual è la differenza tra psicomotricità e fisioterapia?</h3>
             <p>
-              Mentre la fisioterapia si concentra principalmente sugli aspetti fisici e 
-              funzionali del movimento, la psicomotricità considera la persona nella sua 
+              Mentre la fisioterapia si concentra principalmente sugli aspetti fisici e
+              funzionali del movimento, la psicomotricità considera la persona nella sua
               globalità, integrando aspetti motori, cognitivi, emotivi e relazionali.
             </p>
           </div>
