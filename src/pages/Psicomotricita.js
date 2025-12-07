@@ -22,7 +22,6 @@ function Psicomotricita() {
               La psicomotricità valorizza i suoi <strong>punti di forza</strong> e lo sostiene nelle <strong>difficoltà</strong>, 
               attraverso il gioco e la relazione.
             </p>
-            
             <p>Con uno sguardo <strong>attento e sensibile</strong>, la psicomotricista osserva il modo in cui ogni 
               bambino si muove, si esprime, entra in relazione e affronta le diverse situazioni di gioco.
               Questo permette di individuare <strong>risorse e fatiche</strong>, adattando le proposte alle esigenze del 
@@ -30,7 +29,6 @@ function Psicomotricita() {
               In questo modo ogni bambino può sentirsi <strong>accolto, sostenuto e libero di esprimersi</strong>, 
               trovando nel percorso uno spazio autentico di crescita.
              </p>
-
           </div>
           <div className="intro-image">
             <img src="/images/psicomotricita-intro.jpg" alt="Psicomotricità" />
@@ -38,15 +36,15 @@ function Psicomotricita() {
         </div>
       </section>
 
+      {/* SEZIONE GRIGLIA */}
       <section className="principles-section">
         <div className="principles-container">
           <h2>Cosa offre al bambino</h2>
+          
           <div className="principles-grid">
             
             <div className="principle-card">
-              <div className="principle-icon">
-                <i className="fas fa-brain"></i>
-              </div>
+              <div className="principle-icon"><i className="fas fa-brain"></i></div>
               <h3>Esplorare</h3>
               <p>
                 I bambini possono sviluppare una maggiore consapevolezza di sè tramite l’esplorazione del <strong>corpo</strong>,
@@ -56,9 +54,7 @@ function Psicomotricita() {
             </div>
 
             <div className="principle-card">
-              <div className="principle-icon">
-                <i className="fas fa-user"></i>
-              </div>
+              <div className="principle-icon"><i className="fas fa-user"></i></div>
               <h3>Valorizzare</h3>
               <p>
                 La psicomotricità attribuisce <strong>importanza ai punti di forza</strong> dei singoli bambini.
@@ -68,9 +64,7 @@ function Psicomotricita() {
             </div>
 
             <div className="principle-card">
-              <div className="principle-icon">
-                <i className="fas fa-hands"></i>
-              </div>
+              <div className="principle-icon"><i className="fas fa-hands"></i></div>
               <h3>Sostenere</h3>
               <p>
                 Anche quando si affrontano sfide, la psicomotricità è un prezioso supporto.
@@ -79,9 +73,7 @@ function Psicomotricita() {
             </div>
 
             <div className="principle-card">
-              <div className="principle-icon">
-                <i className="fas fa-heart"></i>
-              </div>
+              <div className="principle-icon"><i className="fas fa-heart"></i></div>
               <h3>Riconoscere</h3>
               <p>
                 Qui, ogni emozione viene legittimata e riconosciuta al bambino.
@@ -91,9 +83,7 @@ function Psicomotricita() {
             </div>
 
             <div className="principle-card">
-              <div className="principle-icon">
-                <i className="fas fa-lightbulb"></i>
-              </div>
+              <div className="principle-icon"><i className="fas fa-lightbulb"></i></div>
               <h3>Creare e Immaginare</h3>
               <p>
                 Sperimentando con il movimento e il gioco e utilizzando materiali non strutturati, i bambini coltivano la loro creatività e immaginazione.
@@ -102,9 +92,7 @@ function Psicomotricita() {
             </div>
 
             <div className="principle-card">
-              <div className="principle-icon">
-                <i className="fas fa-users"></i>
-              </div>
+              <div className="principle-icon"><i className="fas fa-users"></i></div>
               <h3>Socializzare e comunicare</h3>
               <p>
                 La psicomotricità offre opportunità per interagire con gli altri bambini,
@@ -126,8 +114,6 @@ function Psicomotricita() {
         </div>
       </section>
 
-     
-
       <section className="faq-section">
         <div className="faq-container">
           <h2>Domande frequenti</h2>
@@ -141,7 +127,7 @@ function Psicomotricita() {
             </p>
           </div>
 
- <div className="faq-item">
+          <div className="faq-item">
             <h3>Come capire se la psicomotricità fa per mio figlio?</h3>
             <p>
               La psicomotricità è indicata per tutti i bambini, come spazio di crescita, gioco ed espressione.
@@ -161,7 +147,6 @@ function Psicomotricita() {
               il corpo e il gioco</strong>, in un ambiente che accoglie e sostiene.
               Aiutano a sviluppare maggiore conoscenza di sé, capacità di gestione delle emozioni, 
               tolleranza alla frustrazione e competenze relazionali.
-
               Creano un ambiente protetto per quei bambini che faticano a gestire emozioni intense, 
               manifestando blocchi o comportamenti esplosivi. 
               Qui trovano <strong>contenimento, sostegno e strumenti per affrontare le difficoltà.</strong>
@@ -180,7 +165,7 @@ function Psicomotricita() {
             </p>
           </div>
 
-<div className="faq-item">
+          <div className="faq-item">
             <h3>I genitori sono coinvolti?</h3>
             <p>
               <strong>Sì</strong>.
@@ -196,7 +181,6 @@ function Psicomotricita() {
             <h3>La psicomotricità è ginnastica?</h3>
             <p>
              <strong>No.</strong>
-
             La psicomotricità non è ginnastica né educazione motoria: non mira alla performance 
             ma <strong>accoglie il corpo come mezzo di relazione, espressione e autoregolazione.</strong>
             </p>
@@ -212,8 +196,6 @@ function Psicomotricita() {
              valutazione e della riabilitazione di bambini con disturbi dello sviluppo.
             </p>
           </div>
-
-          
         </div>
       </section>
 
