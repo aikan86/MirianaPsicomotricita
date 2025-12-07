@@ -41,11 +41,9 @@ function Psicomotricita() {
       <section className="principles-section">
         <div className="principles-container">
           <h2>Cosa offre al bambino</h2>
-          
-          {/* --- INIZIO MODIFICA: Nomi classi cambiati per forzare il layout --- */}
-          <div className="grid-tre-colonne">
+          <div className="principles-grid">
             
-            <div className="card-nuova">
+            <div className="principle-card">
               <div className="principle-icon">
                 <i className="fas fa-brain"></i>
               </div>
@@ -57,7 +55,7 @@ function Psicomotricita() {
               </p>
             </div>
 
-            <div className="card-nuova">
+            <div className="principle-card">
               <div className="principle-icon">
                 <i className="fas fa-user"></i>
               </div>
@@ -69,7 +67,7 @@ function Psicomotricita() {
               </p>
             </div>
 
-            <div className="card-nuova">
+            <div className="principle-card">
               <div className="principle-icon">
                 <i className="fas fa-hands"></i>
               </div>
@@ -80,7 +78,7 @@ function Psicomotricita() {
               </p>
             </div>
 
-            <div className="card-nuova">
+            <div className="principle-card">
               <div className="principle-icon">
                 <i className="fas fa-heart"></i>
               </div>
@@ -92,7 +90,7 @@ function Psicomotricita() {
               </p>
             </div>
 
-            <div className="card-nuova">
+            <div className="principle-card">
               <div className="principle-icon">
                 <i className="fas fa-lightbulb"></i>
               </div>
@@ -103,7 +101,7 @@ function Psicomotricita() {
               </p>
             </div>
 
-            <div className="card-nuova">
+            <div className="principle-card">
               <div className="principle-icon">
                 <i className="fas fa-users"></i>
               </div>
@@ -115,8 +113,6 @@ function Psicomotricita() {
             </div>
 
           </div>
-          {/* --- FINE MODIFICA --- */}
-
         </div>
       </section>
 
@@ -129,6 +125,8 @@ function Psicomotricita() {
           </p>
         </div>
       </section>
+
+     
 
       <section className="faq-section">
         <div className="faq-container">
@@ -143,7 +141,7 @@ function Psicomotricita() {
             </p>
           </div>
 
-          <div className="faq-item">
+ <div className="faq-item">
             <h3>Come capire se la psicomotricità fa per mio figlio?</h3>
             <p>
               La psicomotricità è indicata per tutti i bambini, come spazio di crescita, gioco ed espressione.
@@ -182,7 +180,7 @@ function Psicomotricita() {
             </p>
           </div>
 
-          <div className="faq-item">
+<div className="faq-item">
             <h3>I genitori sono coinvolti?</h3>
             <p>
               <strong>Sì</strong>.
@@ -198,6 +196,7 @@ function Psicomotricita() {
             <h3>La psicomotricità è ginnastica?</h3>
             <p>
              <strong>No.</strong>
+
             La psicomotricità non è ginnastica né educazione motoria: non mira alla performance 
             ma <strong>accoglie il corpo come mezzo di relazione, espressione e autoregolazione.</strong>
             </p>
@@ -214,6 +213,7 @@ function Psicomotricita() {
             </p>
           </div>
 
+          
         </div>
       </section>
 
