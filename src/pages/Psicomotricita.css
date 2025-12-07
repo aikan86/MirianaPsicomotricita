@@ -2,342 +2,367 @@
 
 /* Page Header styling is already in App.css */
 
-/* Intro Section */
+/* --- INTRO SECTION --- */
 .intro-section {
-    padding: 0 0 80px;
-  }
-  
-  .intro-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-  }
-  
-  .intro-text {
-    flex: 1;
-    padding-right: 50px;
-  }
-  
-  .intro-text h2 {
-    color: #2e5d9e;
-    margin-bottom: 20px;
-  }
-  
-  .intro-text p {
-    margin-bottom: 20px;
-    line-height: 1.7;
-  }
-  
-  .intro-image {
-    flex: 1;
-    max-width: 45%;
-  }
-  
-  .intro-image img {
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  }
-/* Principles Section */
+  padding: 0 0 80px;
+}
+
+.intro-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.intro-text {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.intro-text h2 {
+  color: #2e5d9e;
+  margin-bottom: 20px;
+}
+
+.intro-text p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.intro-image {
+  flex: 1;
+  max-width: 45%;
+}
+
+.intro-image img {
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Aggiunto per sicurezza */
+  height: auto;
+}
+
+/* --- PRINCIPLES SECTION (MODIFICATA PER GRIGLIA 3 COLONNE) --- */
 .principles-section {
-    background-color: #f8f9fa;
-    padding: 80px 0;
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.principles-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.principles-container h2 {
+  text-align: center;
+  color: #2e5d9e;
+  margin-bottom: 50px;
+}
+
+/* MODIFICA: Utilizzo di Grid invece di Flexbox */
+.principles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colonne uguali */
+  gap: 30px; /* Spazio tra le card */
+  width: 100%;
+}
+
+.principle-card {
+  /* Larghezza gestita dalla griglia, rimossi width fissi */
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  
+  /* Per centrare contenuto verticale se le altezze variano */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%; /* Rende le card alte uguali */
+}
+
+.principle-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.principle-icon {
+  font-size: 2.5rem;
+  color: #4a90e2;
+  margin-bottom: 20px;
+}
+
+.principle-card h3 {
+  color: #2e5d9e;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.principle-card p {
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+/* --- BENEFITS SECTION --- */
+.benefits-section {
+  padding: 80px 0;
+}
+
+.benefits-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.benefits-container h2 {
+  text-align: center;
+  color: #2e5d9e;
+  margin-bottom: 50px;
+}
+
+.age-group {
+  margin-bottom: 40px;
+}
+
+.age-group h3 {
+  color: #4a90e2;
+  border-bottom: 2px solid #eef5ff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.benefits-list {
+  columns: 2;
+  column-gap: 30px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.benefits-list li {
+  position: relative;
+  padding: 8px 0 8px 25px;
+  break-inside: avoid;
+}
+
+.benefits-list li::before {
+  content: '\f058'; /* Check circle icon from Font Awesome */
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  color: #4a90e2;
+}
+
+/* --- APPROACHES SECTION --- */
+.approaches-section {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.approaches-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.approaches-container h2 {
+  text-align: center;
+  color: #2e5d9e;
+  margin-bottom: 20px;
+}
+
+.approaches-intro {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 50px;
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+.approach-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.approach-card h3 {
+  color: #2e5d9e;
+  margin-bottom: 15px;
+}
+
+.approach-card p {
+  color: #6c757d;
+  line-height: 1.7;
+}
+
+/* --- SCIENCE SECTION --- */
+.science-section {
+  padding: 80px 0;
+}
+
+.science-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.science-container h2 {
+  text-align: center;
+  color: #2e5d9e;
+  margin-bottom: 50px;
+}
+
+.science-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.science-text {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.science-text p {
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.science-text ul {
+  margin-bottom: 20px;
+}
+
+.science-text ul li {
+  margin-bottom: 15px;
+  line-height: 1.7;
+}
+
+.science-image {
+  flex: 1;
+  max-width: 45%;
+}
+
+.science-image img {
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: auto;
+}
+
+/* --- FAQ SECTION --- */
+.faq-section {
+  background-color: #f8f9fa;
+  padding: 80px 0;
+}
+
+.faq-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.faq-container h2 {
+  text-align: center;
+  color: #2e5d9e;
+  margin-bottom: 50px;
+}
+
+.faq-item {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.faq-item h3 {
+  color: #2e5d9e;
+  margin-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+.faq-item p {
+  color: #6c757d;
+  line-height: 1.7;
+}
+
+/* CTA Section styling is already in App.css */
+
+/* --- RESPONSIVE / MEDIA QUERIES --- */
+
+@media screen and (max-width: 960px) {
+  .intro-container, .science-content {
+    flex-direction: column;
   }
   
-  .principles-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .principles-container h2 {
-    text-align: center;
-    color: #2e5d9e;
-    margin-bottom: 50px;
-  }
-  
-  .principles-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .principle-card {
-    width: calc(25% - 20px);
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 30px 20px;
-    text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    margin-bottom: 30px;
-    transition: all 0.3s ease;
-  }
-  
-  .principle-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-  }
-  
-  .principle-icon {
-    font-size: 2.5rem;
-    color: #4a90e2;
-    margin-bottom: 20px;
-  }
-  
-  .principle-card h3 {
-    color: #2e5d9e;
-    margin-bottom: 15px;
-    font-size: 1.3rem;
-  }
-  
-  .principle-card p {
-    color: #6c757d;
-    line-height: 1.6;
-  }
-  
-  /* Benefits Section */
-  .benefits-section {
-    padding: 80px 0;
-  }
-  
-  .benefits-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .benefits-container h2 {
-    text-align: center;
-    color: #2e5d9e;
-    margin-bottom: 50px;
-  }
-  
-  .age-group {
+  .intro-text, .science-text {
+    padding-right: 0;
     margin-bottom: 40px;
   }
   
-  .age-group h3 {
-    color: #4a90e2;
-    border-bottom: 2px solid #eef5ff;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+  .intro-image, .science-image {
+    max-width: 100%;
+  }
+  
+  /* MODIFICA: Tablet diventa 2 colonne */
+  .principles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Reset width vecchi */
+  .principle-card {
+    width: auto; 
   }
   
   .benefits-list {
-    columns: 2;
-    column-gap: 30px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    columns: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro-section, .principles-section, .benefits-section, .approaches-section, .science-section, .faq-section {
+    padding: 60px 0;
   }
   
-  .benefits-list li {
-    position: relative;
-    padding: 8px 0 8px 25px;
-    break-inside: avoid;
+  /* MODIFICA: Cellulare diventa 1 colonna */
+  .principles-grid {
+    grid-template-columns: 1fr;
   }
-  
-  .benefits-list li::before {
-    content: '\f058'; /* Check circle icon from Font Awesome */
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    position: absolute;
-    left: 0;
-    color: #4a90e2;
-  }
-/* Approaches Section */
-.approaches-section {
-    background-color: #f8f9fa;
-    padding: 80px 0;
-  }
-  
-  .approaches-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .approaches-container h2 {
-    text-align: center;
-    color: #2e5d9e;
-    margin-bottom: 20px;
-  }
-  
-  .approaches-intro {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 50px;
-    font-size: 1.1rem;
-    color: #6c757d;
+
+  .principle-card {
+    width: 100%;
   }
   
   .approach-card {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 30px;
-    margin-bottom: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-  }
-  
-  .approach-card h3 {
-    color: #2e5d9e;
-    margin-bottom: 15px;
-  }
-  
-  .approach-card p {
-    color: #6c757d;
-    line-height: 1.7;
-  }
-  
-  /* Science Section */
-  .science-section {
-    padding: 80px 0;
-  }
-  
-  .science-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .science-container h2 {
-    text-align: center;
-    color: #2e5d9e;
-    margin-bottom: 50px;
-  }
-  
-  .science-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .science-text {
-    flex: 1;
-    padding-right: 50px;
-  }
-  
-  .science-text p {
-    margin-bottom: 20px;
-    line-height: 1.7;
-  }
-  
-  .science-text ul {
-    margin-bottom: 20px;
-  }
-  
-  .science-text ul li {
-    margin-bottom: 15px;
-    line-height: 1.7;
-  }
-  
-  .science-image {
-    flex: 1;
-    max-width: 45%;
-  }
-  
-  .science-image img {
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* FAQ Section */
-  .faq-section {
-    background-color: #f8f9fa;
-    padding: 80px 0;
-  }
-  
-  .faq-container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .faq-container h2 {
-    text-align: center;
-    color: #2e5d9e;
-    margin-bottom: 50px;
+    padding: 20px;
   }
   
   .faq-item {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 25px 30px;
-    margin-bottom: 20px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 20px;
   }
   
   .faq-item h3 {
-    color: #2e5d9e;
-    margin-bottom: 15px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
-  
-  .faq-item p {
-    color: #6c757d;
-    line-height: 1.7;
-  }
-/* CTA Section styling is already in App.css */
+}
 
-/* Responsive */
-@media screen and (max-width: 960px) {
-    .intro-container, .science-content {
-      flex-direction: column;
-    }
-    
-    .intro-text, .science-text {
-      padding-right: 0;
-      margin-bottom: 40px;
-    }
-    
-    .intro-image, .science-image {
-      max-width: 100%;
-    }
-    
-    .principle-card {
-      width: calc(50% - 15px);
-    }
-    
-    .benefits-list {
-      columns: 1;
-    }
+@media screen and (max-width: 480px) {
+  .intro-section, .principles-section, .benefits-section, .approaches-section, .science-section, .faq-section {
+    padding: 40px 0;
   }
   
-  @media screen and (max-width: 768px) {
-    .intro-section, .principles-section, .benefits-section, .approaches-section, .science-section, .faq-section {
-      padding: 60px 0;
-    }
-    
-    .principle-card {
-      width: 100%;
-    }
-    
-    .approach-card {
-      padding: 20px;
-    }
-    
-    .faq-item {
-      padding: 20px;
-    }
-    
-    .faq-item h3 {
-      font-size: 1.2rem;
-    }
+  .benefits-list li::before {
+    font-size: 0.9rem;
+    top: 9px;
   }
   
-  @media screen and (max-width: 480px) {
-    .intro-section, .principles-section, .benefits-section, .approaches-section, .science-section, .faq-section {
-      padding: 40px 0;
-    }
-    
-    .benefits-list li::before {
-      font-size: 0.9rem;
-      top: 9px;
-    }
-    
-    .approaches-intro {
-      font-size: 1rem;
-    }
+  .approaches-intro {
+    font-size: 1rem;
   }
-        
+}
