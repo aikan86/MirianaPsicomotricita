@@ -118,7 +118,7 @@ function Contatti() {
             </div>
             <div className="info-content">
               <h3>Telefono</h3>
-              <p>+39 123</p>
+              <p>+39 3457145906</p>
             </div>
           </div>
           <div className="info-item">
