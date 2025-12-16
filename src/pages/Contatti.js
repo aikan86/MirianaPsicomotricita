@@ -95,7 +95,6 @@ function Contatti() {
       <section className="page-header">
         <div className="header-container">
           <h1>Contatti</h1>
-          <p>Sono qui per rispondere alle tue domande e aiutarti a trovare il percorso giusto per te</p>
         </div>
       </section>
 
@@ -109,8 +108,7 @@ function Contatti() {
             </div>
             <div className="info-content">
               <h3>Indirizzo</h3>
-              <p>Via Esempio 123</p>
-              <p>12345 Città (Provincia)</p>
+              <p>Genova e provincia</p>
             </div>
           </div>
           
@@ -120,7 +118,7 @@ function Contatti() {
             </div>
             <div className="info-content">
               <h3>Telefono</h3>
-              <p>+39 123 456 7890</p>
+              <p>+39 123</p>
             </div>
           </div>
           <div className="info-item">
@@ -133,17 +131,6 @@ function Contatti() {
             </div>
           </div>
           
-          <div className="info-item">
-            <div className="info-icon">
-              <i className="fas fa-clock"></i>
-            </div>
-            <div className="info-content">
-              <h3>Orari</h3>
-              <p>Lunedì - Venerdì: 9:00 - 18:00</p>
-              <p>Sabato: 9:00 - 13:00</p>
-              <p>Domenica: Chiuso</p>
-            </div>
-          </div>
           
           <div className="social-media">
             <h3>Seguimi sui social</h3>
@@ -153,9 +140,6 @@ function Contatti() {
               </a>
               <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <i className="fab fa-instagram"></i>
-              </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                <i className="fab fa-linkedin-in"></i>
               </a>
             </div>
           </div>
@@ -219,12 +203,7 @@ function Contatti() {
                 onChange={handleChange}
               >
                 <option value="">Seleziona un servizio</option>
-                <option value="valutazione">Valutazione psicomotoria</option>
-                <option value="bambini">Psicomotricità per bambini</option>
-                <option value="gruppo">Attività di gruppo</option>
-                <option value="adolescenti">Supporto per adolescenti</option>
-                <option value="adulti">Psicomotricità per adulti</option>
-                <option value="consulenza">Consulenza per genitori/educatori</option>
+                <option value="bambini">Psicomotricità educativa</option>
                 <option value="laboratori">Laboratori nelle scuole</option>
                 <option value="altro">Altro</option>
               </select>
@@ -285,35 +264,6 @@ function Contatti() {
           ></iframe>
         </div>
       </section>
-
-      <section className="faq-section">
-        <div className="faq-container">
-          <h2>Domande frequenti sui contatti</h2>
-          
-          <div className="faq-item">
-            <h3>Quanto tempo ci vuole per ricevere una risposta?</h3>
-            <p>
-              Rispondo generalmente entro 24-48 ore lavorative. Per richieste urgenti, 
-              ti consiglio di contattarmi telefonicamente.
-            </p>
-          </div>
-          
-          <div className="faq-item">
-            <h3>È necessario prenotare in anticipo?</h3>
-            <p>
-              Sì, è consigliabile prenotare con almeno una settimana di anticipo, soprattutto 
-              per la prima valutazione. Per le sedute successive, concorderemo insieme un 
-              calendario di appuntamenti.
-            </p>
-          </div>
-          
-          <div className="faq-item">
-            <h3>È possibile disdire o spostare un appuntamento?</h3>
-            <p>
-              Sì, è possibile disdire o spostare un appuntamento con almeno 24 ore di preavviso. 
-              In caso contrario, potrebbe essere addebitato il costo della seduta.
-            </p>
-          </div>
         </div>
       </section>
     </div>
