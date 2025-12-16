@@ -264,8 +264,6 @@ function Contatti() {
           ></iframe>
         </div>
       </section>
-        </div>
-      </section>
     </div>
   );
 }
