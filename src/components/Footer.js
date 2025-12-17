@@ -28,12 +28,6 @@ function Footer() {
               <p><i className="fas fa-phone"></i> +39 3457145906</p>
               <p><i className="fas fa-envelope"></i> miriana.ferro@yahoo.it</p>
             </div>
-            <div className="footer-link-items">
-              <h2>Orari</h2>
-              <p>Lunedì - Venerdì: 9:00 - 18:00</p>
-              <p>Sabato: 9:00 - 13:00</p>
-              <p>Domenica: Chiuso</p>
-            </div>
           </div>
         </div>
         <div className="footer-bottom">
