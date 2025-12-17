@@ -10,7 +10,7 @@ function Footer() {
           <div className="footer-link-wrapper">
             <div className="footer-link-items">
               <h2>Miriana Ferro</h2>
-              <p className="footer-description">Specialista in Psicomotricità</p>
+              <p className="footer-description">Psicomotricista</p>
               <div className="social-icons">
                 <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="Facebook">
                   <i className="fab fa-facebook-f"></i>
