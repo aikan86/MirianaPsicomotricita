@@ -248,7 +248,6 @@ function Contatti() {
         </div>
       </section>
 
-
     </div>
   );
 }
