@@ -8,8 +8,7 @@ import Psicomotricita from './pages/Psicomotricita';
 import Servizi from './pages/Servizi';
 import Contatti from './pages/Contatti';
 import './styles/App.css';
-import ScrollToTop from '../src/components/ScrollToTop';
-
+import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <Router>
