@@ -15,7 +15,7 @@ function Footer() {
                 <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="Facebook">
                   <i className="fab fa-facebook-f"></i>
                 </a>
-                <a href="https://www.instagram.com/aleli_psicomotricita_genova?igsh=cWJtd2FzMzA2b244" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="Instagram">
+                <a href="https://www.instagram.com/aleli_psicomotricita_genova" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="Instagram">
                   <i className="fab fa-instagram"></i>
                 </a>
               </div>
@@ -25,8 +25,8 @@ function Footer() {
             <div className="footer-link-items">
               <h2>Contatti</h2>
               <p><i className="fas fa-map-marker-alt"></i> Genova</p>
-              <p><i className="fas fa-phone"></i> +39 3457145906</p>
-              <p><i className="fas fa-envelope"></i> miriana.ferro@yahoo.it</p>
+              <p><i className="fas fa-phone"></i> <a href="tel:+393457145906" style={{color: 'white', textDecoration: 'none'}}>+39 3457145906</a></p>
+              <p><i className="fas fa-envelope"></i> <a href="mailto:info@mirianaferro-psicomotricista.it" style={{color: 'white', textDecoration: 'none'}}>info@mirianaferro-psicomotricista.it</a></p>
             </div>
           </div>
         </div>
@@ -34,7 +34,6 @@ function Footer() {
           <p className="website-rights">© {new Date().getFullYear()} Miriana Ferro. Tutti i diritti riservati.</p>
           <div className="footer-policy-links">
             <Link to="/privacy-policy">Privacy Policy</Link>
-            <Link to="/cookie-policy">Cookie Policy</Link>
           </div>
         </div>
       </div>

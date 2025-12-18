@@ -20,7 +20,7 @@ function PrivacyPolicy() {
         <p>Utilizzando il tasto di invio, i dati verranno trasferiti all'applicazione WhatsApp per permettere la messaggistica diretta.</p>
         
         <h3>4. I tuoi diritti</h3>
-        <p>Puoi richiedere la cancellazione o la modifica dei tuoi dati in qualsiasi momento scrivendo all'indirizzo email sopra indicato.</p>
+        <p>Puoi richiedere la cancellazione o la modifica dei tuoi dati in qualsiasi momento scrivendo all'indirizzo email info@mirianaferro-psicomotricista.it.</p>
       </section>
     </div>
   );
