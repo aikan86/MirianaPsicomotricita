@@ -8,10 +8,13 @@ import Psicomotricita from './pages/Psicomotricita';
 import Servizi from './pages/Servizi';
 import Contatti from './pages/Contatti';
 import './styles/App.css';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop /> 
+      
       <div className="App">
         <Navbar />
         <main>
