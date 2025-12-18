@@ -56,22 +56,38 @@
     color: #2e5d9e;
     margin-bottom: 50px;
   }
-  
+
+  /* Modifica la griglia per avere 3 colonne */
   .principles-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea 3 colonne uguali */
+    gap: 30px; /* Spazio tra i riquadri */
+    max-width: 1200px;
+    margin: 0 auto;
   }
-  
+
+  /* Assicurati che le card occupino tutto lo spazio della colonna */
   .principle-card {
-    width: calc(25% - 20px);
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 30px 20px;
-    text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    margin-bottom: 30px;
-    transition: all 0.3s ease;
+    width: 100%; /* Rimuovi eventuali larghezze fisse come 23% o 45% */
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Fa sì che tutte le card siano alte uguali nella stessa riga */
+  }
+
+  /* --- Gestione Responsive --- */
+
+  /* Su Tablet: 2 colonne (3 righe totali) */
+  @media screen and (max-width: 960px) {
+    .principles-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  /* Su Mobile: 1 colonna (6 righe totali) */
+  @media screen and (max-width: 600px) {
+    .principles-grid {
+      grid-template-columns: 1fr;
+    }
   }
   
   .principle-card:hover {
