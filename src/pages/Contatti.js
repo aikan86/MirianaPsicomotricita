@@ -21,7 +21,6 @@ function Contatti() {
       [name]: type === 'checkbox' ? checked : value
     });
     
-    // Clear error for this field if it exists
     if (formErrors[name]) {
       setFormErrors({
         ...formErrors,
@@ -29,6 +28,7 @@ function Contatti() {
       });
     }
   };
+
   const validateForm = () => {
     const errors = {};
     
@@ -68,11 +68,28 @@ function Contatti() {
       setFormErrors(errors);
       return;
     }
+
+    // LOGICA WHATSAPP
+    const numeroWhatsApp = "393457145906"; // Prefisso internazionale + numero
     
-    // Qui andrà il codice per inviare il form a un servizio di backend
-    console.log('Form inviato:', formData);
+    // Prepariamo il testo del messaggio in modo leggibile
+    const servizioScelto = formData.servizio ? `Interessato a: ${formData.servizio}` : "Richiesta informazioni generale";
+    const messaggioWhatsApp = `Ciao Miriana!
+Mi chiamo: ${formData.nome}
+Email: ${formData.email}
+Telefono: ${formData.telefono}
+${servizioScelto}
+
+Messaggio:
+${formData.messaggio}`;
+
+    // Codifichiamo il testo per l'URL
+    const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(messaggioWhatsApp)}`;
+
+    // Apre WhatsApp in una nuova finestra
+    window.open(url, '_blank');
     
-    // Reset form e mostra messaggio di successo
+    // Reset form e mostra feedback visivo sul sito
     setFormData({
       nome: '',
       email: '',
@@ -84,7 +101,6 @@ function Contatti() {
     
     setFormSubmitted(true);
     
-    // Nascondi il messaggio dopo 5 secondi
     setTimeout(() => {
       setFormSubmitted(false);
     }, 5000);
@@ -127,10 +143,9 @@ function Contatti() {
             </div>
             <div className="info-content">
               <h3>Email</h3>
-              <p>info@mirianaferro.it</p>
+              <p>info@mirianaferro-psicomotricista.it</p>
             </div>
           </div>
-          
           
           <div className="social-media">
             <h3>Seguimi sui social</h3>
@@ -146,11 +161,11 @@ function Contatti() {
         </div>
         
         <div className="contact-form-container">
-          <h2>Inviami un messaggio</h2>
+          <h2>Inviami un messaggio su WhatsApp</h2>
           
           {formSubmitted && (
             <div className="form-success">
-              <p>Grazie per avermi contattato! Ti risponderò al più presto.</p>
+              <p>L'app di WhatsApp si è aperta. Premi invia per mandarmi il messaggio!</p>
             </div>
           )}
           
@@ -161,6 +176,7 @@ function Contatti() {
                 type="text"
                 id="nome"
                 name="nome"
+                placeholder="Inserisci il tuo nome"
                 value={formData.nome}
                 onChange={handleChange}
                 className={formErrors.nome ? 'error' : ''}
@@ -174,6 +190,7 @@ function Contatti() {
                 type="email"
                 id="email"
                 name="email"
+                placeholder="esempio@mail.it"
                 value={formData.email}
                 onChange={handleChange}
                 className={formErrors.email ? 'error' : ''}
@@ -187,6 +204,7 @@ function Contatti() {
                 type="tel"
                 id="telefono"
                 name="telefono"
+                placeholder="Il tuo numero"
                 value={formData.telefono}
                 onChange={handleChange}
                 className={formErrors.telefono ? 'error' : ''}
@@ -203,9 +221,9 @@ function Contatti() {
                 onChange={handleChange}
               >
                 <option value="">Seleziona un servizio</option>
-                <option value="bambini">Psicomotricità educativa</option>
-                <option value="laboratori">Laboratori nelle scuole</option>
-                <option value="altro">Altro</option>
+                <option value="Psicomotricità educativa">Psicomotricità educativa</option>
+                <option value="Laboratori nelle scuole">Laboratori nelle scuole</option>
+                <option value="Altro">Altro</option>
               </select>
             </div>
             
@@ -214,6 +232,7 @@ function Contatti() {
               <textarea
                 id="messaggio"
                 name="messaggio"
+                placeholder="Scrivi qui la tua richiesta..."
                 value={formData.messaggio}
                 onChange={handleChange}
                 rows="5"
@@ -239,7 +258,8 @@ function Contatti() {
             
             <div className="form-actions">
               <button type="submit" className="btn-primary">
-                Invia messaggio
+                <i className="fab fa-whatsapp" style={{marginRight: '10px'}}></i>
+                Invia messaggio su WhatsApp
               </button>
             </div>
             
@@ -247,8 +267,6 @@ function Contatti() {
           </form>
         </div>
       </section>
-
-
     </div>
   );
 }
