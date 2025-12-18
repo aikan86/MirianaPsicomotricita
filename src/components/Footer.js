@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-main-content">
           
-          {/* SEZIONE SINISTRA: LOGO E SOCIAL */}
+          {/* SEZIONE SINISTRA */}
           <div className="footer-section profile-info">
             <h2>Miriana Ferro</h2>
             <p className="footer-description">Psicomotricista</p>
@@ -22,9 +22,9 @@ function Footer() {
             </div>
           </div>
 
-          {/* SEZIONE DESTRA: CONTATTI */}
+          {/* SEZIONE DESTRA - Qui riaggiungiamo il titolo Contatti */}
           <div className="footer-section contact-info">
-            <h2>Contatti</h2>
+            <h2>Contatti</h2> 
             <div className="footer-contact-item">
               <i className="fas fa-map-marker-alt"></i>
               <span>Genova</span>
