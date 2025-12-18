@@ -6,30 +6,41 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <div className="footer-links">
-          <div className="footer-link-wrapper">
-            <div className="footer-link-items">
-              <h2>Miriana Ferro</h2>
-              <p className="footer-description">Psicomotricista</p>
-              <div className="social-icons">
-                <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="Facebook">
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.instagram.com/aleli_psicomotricita_genova" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="Instagram">
-                  <i className="fab fa-instagram"></i>
-                </a>
-              </div>
+        <div className="footer-main-content">
+          
+          {/* SEZIONE SINISTRA: LOGO E SOCIAL */}
+          <div className="footer-section profile-info">
+            <h2>Miriana Ferro</h2>
+            <p className="footer-description">Psicomotricista</p>
+            <div className="social-icons">
+              <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="Facebook">
+                <i className="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com/aleli_psicomotricita_genova?igsh=cWJtd2FzMzA2b244" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="Instagram">
+                <i className="fab fa-instagram"></i>
+              </a>
             </div>
           </div>
-          <div className="footer-link-wrapper">
-            <div className="footer-link-items">
-              <h2>Contatti</h2>
-              <p><i className="fas fa-map-marker-alt"></i> Genova</p>
-              <p><i className="fas fa-phone"></i> <a href="tel:+393457145906" style={{color: 'white', textDecoration: 'none'}}>+39 3457145906</a></p>
-              <p><i className="fas fa-envelope"></i> <a href="mailto:info@mirianaferro-psicomotricista.it" style={{color: 'white', textDecoration: 'none'}}>info@mirianaferro-psicomotricista.it</a></p>
+
+          {/* SEZIONE DESTRA: CONTATTI */}
+          <div className="footer-section contact-info">
+            <h2>Contatti</h2>
+            <div className="footer-contact-item">
+              <i className="fas fa-map-marker-alt"></i>
+              <span>Genova</span>
+            </div>
+            <div className="footer-contact-item">
+              <i className="fas fa-phone"></i>
+              <a href="tel:+393457145906">+39 3457145906</a>
+            </div>
+            <div className="footer-contact-item">
+              <i className="fas fa-envelope"></i>
+              <a href="mailto:info@mirianaferro-psicomotricista.it">info@mirianaferro-psicomotricista.it</a>
             </div>
           </div>
+
         </div>
+
         <div className="footer-bottom">
           <p className="website-rights">© {new Date().getFullYear()} Miriana Ferro. Tutti i diritti riservati.</p>
           <div className="footer-policy-links">
