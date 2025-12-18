@@ -7,13 +7,14 @@ import ChiSono from './pages/ChiSono';
 import Psicomotricita from './pages/Psicomotricita';
 import Servizi from './pages/Servizi';
 import Contatti from './pages/Contatti';
-import './styles/App.css';
+import PrivacyPolicy from './pages/PrivacyPolicy'; 
 import ScrollToTop from './components/ScrollToTop';
+import './styles/App.css';
+
 function App() {
   return (
     <Router>
       <ScrollToTop /> 
-      
       <div className="App">
         <Navbar />
         <main>
@@ -23,6 +24,7 @@ function App() {
             <Route path="/psicomotricita" element={<Psicomotricita />} />
             <Route path="/servizi" element={<Servizi />} />
             <Route path="/contatti" element={<Contatti />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           </Routes>
         </main>
         <Footer />

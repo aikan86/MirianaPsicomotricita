@@ -21,6 +21,7 @@ function Contatti() {
       [name]: type === 'checkbox' ? checked : value
     });
     
+    // Rimuove l'errore quando l'utente ricomincia a scrivere
     if (formErrors[name]) {
       setFormErrors({
         ...formErrors,
@@ -69,27 +70,28 @@ function Contatti() {
       return;
     }
 
-    // LOGICA WHATSAPP
-    const numeroWhatsApp = "393457145906"; // Prefisso internazionale + numero
+    // --- LOGICA INVIO WHATSAPP ---
+    const numeroWhatsApp = "393457145906";
     
-    // Prepariamo il testo del messaggio in modo leggibile
-    const servizioScelto = formData.servizio ? `Interessato a: ${formData.servizio}` : "Richiesta informazioni generale";
-    const messaggioWhatsApp = `Ciao Miriana!
-Mi chiamo: ${formData.nome}
-Email: ${formData.email}
-Telefono: ${formData.telefono}
-${servizioScelto}
+    // Formattazione del messaggio con a capo (%0A)
+    const servizioInfo = formData.servizio ? `Interessato a: ${formData.servizio}` : "Richiesta generica";
+    const testoMessaggio = `Ciao Miriana!%0A%0A` +
+      `*Nuovo messaggio dal sito*%0A` +
+      `*Nome:* ${formData.nome}%0A` +
+      `*Email:* ${formData.email}%0A` +
+      `*Telefono:* ${formData.telefono}%0A` +
+      `*Servizio:* ${servizioInfo}%0A%0A` +
+      `*Messaggio:*%0A${formData.messaggio}`;
 
-Messaggio:
-${formData.messaggio}`;
+    const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${testoMessaggio}`;
 
-    // Codifichiamo il testo per l'URL
-    const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(messaggioWhatsApp)}`;
-
-    // Apre WhatsApp in una nuova finestra
-    window.open(url, '_blank');
+    // Apre WhatsApp in una nuova scheda
+    window.open(urlWhatsApp, '_blank');
     
-    // Reset form e mostra feedback visivo sul sito
+    // Feedback visivo sul sito
+    setFormSubmitted(true);
+    
+    // Reset del form
     setFormData({
       nome: '',
       email: '',
@@ -99,8 +101,7 @@ ${formData.messaggio}`;
       privacy: false
     });
     
-    setFormSubmitted(true);
-    
+    // Nasconde il messaggio di successo dopo 5 secondi
     setTimeout(() => {
       setFormSubmitted(false);
     }, 5000);
@@ -137,6 +138,7 @@ ${formData.messaggio}`;
               <p>+39 3457145906</p>
             </div>
           </div>
+
           <div className="info-item">
             <div className="info-icon">
               <i className="fas fa-envelope"></i>
@@ -165,7 +167,7 @@ ${formData.messaggio}`;
           
           {formSubmitted && (
             <div className="form-success">
-              <p>L'app di WhatsApp si è aperta. Premi invia per mandarmi il messaggio!</p>
+              <p>Ti sto reindirizzando a WhatsApp... Premi "Invia" nell'app per completare!</p>
             </div>
           )}
           
@@ -176,10 +178,10 @@ ${formData.messaggio}`;
                 type="text"
                 id="nome"
                 name="nome"
-                placeholder="Inserisci il tuo nome"
                 value={formData.nome}
                 onChange={handleChange}
                 className={formErrors.nome ? 'error' : ''}
+                placeholder="Il tuo nome"
               />
               {formErrors.nome && <span className="error-message">{formErrors.nome}</span>}
             </div>
@@ -190,10 +192,10 @@ ${formData.messaggio}`;
                 type="email"
                 id="email"
                 name="email"
-                placeholder="esempio@mail.it"
                 value={formData.email}
                 onChange={handleChange}
                 className={formErrors.email ? 'error' : ''}
+                placeholder="esempio@email.it"
               />
               {formErrors.email && <span className="error-message">{formErrors.email}</span>}
             </div>
@@ -204,10 +206,10 @@ ${formData.messaggio}`;
                 type="tel"
                 id="telefono"
                 name="telefono"
-                placeholder="Il tuo numero"
                 value={formData.telefono}
                 onChange={handleChange}
                 className={formErrors.telefono ? 'error' : ''}
+                placeholder="340 0000000"
               />
               {formErrors.telefono && <span className="error-message">{formErrors.telefono}</span>}
             </div>
@@ -223,7 +225,7 @@ ${formData.messaggio}`;
                 <option value="">Seleziona un servizio</option>
                 <option value="Psicomotricità educativa">Psicomotricità educativa</option>
                 <option value="Laboratori nelle scuole">Laboratori nelle scuole</option>
-                <option value="Altro">Altro</option>
+                <option value="Altro">Altro / Informazioni</option>
               </select>
             </div>
             
@@ -232,11 +234,11 @@ ${formData.messaggio}`;
               <textarea
                 id="messaggio"
                 name="messaggio"
-                placeholder="Scrivi qui la tua richiesta..."
                 value={formData.messaggio}
                 onChange={handleChange}
                 rows="5"
                 className={formErrors.messaggio ? 'error' : ''}
+                placeholder="Come posso aiutarti?"
               ></textarea>
               {formErrors.messaggio && <span className="error-message">{formErrors.messaggio}</span>}
             </div>
@@ -259,7 +261,7 @@ ${formData.messaggio}`;
             <div className="form-actions">
               <button type="submit" className="btn-primary">
                 <i className="fab fa-whatsapp" style={{marginRight: '10px'}}></i>
-                Invia messaggio su WhatsApp
+                Invia via WhatsApp
               </button>
             </div>
             
