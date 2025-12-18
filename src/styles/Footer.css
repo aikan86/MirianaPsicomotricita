@@ -13,27 +13,34 @@
   padding: 0 20px;
 }
 
-/* Layout principale: Spinge le sezioni ai due lati opposti */
-.footer-main-content {
+/* Layout principale: assicura che il titolo "Contatti" e i dati siano visibili e a destra */
+.footer-links {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 40px;
+  flex-wrap: wrap;
 }
 
-.footer-section {
-  flex: 1;
+/* Contenitori per le due sezioni (Profilo e Contatti) */
+.footer-link-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
 }
 
-/* SEZIONE SINISTRA: Profilo Miriana */
-.profile-info {
-  text-align: left;
-}
-
-.footer-section h2 {
-  margin-bottom: 16px;
+/* Stile per i titoli h2 (Miriana Ferro e Contatti) */
+.footer-link-items h2 {
+  margin-bottom: 20px;
   color: #fff;
   font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* SEZIONE SINISTRA: Profilo */
+.footer-link-wrapper:first-child {
+  text-align: left;
+  align-items: flex-start;
 }
 
 .footer-description {
@@ -45,57 +52,54 @@
 .social-icons {
   display: flex;
   gap: 15px;
-  margin-top: 16px;
+  margin-top: 10px;
 }
 
 .social-icon-link {
-  color: #fff;
-  font-size: 24px;
-  transition: color 0.3s ease;
   background: white; /* Cerchio bianco come da immagine */
-  color: #2e5d9e;
+  color: #2e5d9e;    /* Icona blu */
   width: 40px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  font-size: 20px;
+  transition: all 0.3s ease;
 }
 
 .social-icon-link:hover {
-  color: #4a90e2;
   transform: translateY(-3px);
+  background-color: #f0f0f0;
 }
 
-/* SEZIONE DESTRA: Contatti */
-.contact-info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; /* Allinea tutto il blocco a destra */
-  text-align: right;    /* Allinea il testo a destra */
+/* SEZIONE DESTRA: Contatti - Ripristina la visibilità della scritta Contatti */
+.footer-link-wrapper:last-child {
+  text-align: right;
+  align-items: flex-end; /* Spinge tutto il blocco a destra */
 }
 
-.footer-contact-item {
+.footer-link-items p {
   display: flex;
   align-items: center;
-  justify-content: flex-end; /* Allinea icone e testo a destra */
-  margin-bottom: 10px;
+  justify-content: flex-end; /* Allinea icona e testo a destra */
   color: #e6e6e6;
+  margin-bottom: 12px;
+  font-size: 1rem;
 }
 
-.footer-contact-item i {
+.footer-link-items i {
   margin-right: 10px;
   color: #fff;
 }
 
-.footer-contact-item a {
+.footer-link-items a {
   color: #e6e6e6;
   text-decoration: none;
-  font-size: 1rem;
   transition: color 0.3s ease;
 }
 
-.footer-contact-item a:hover {
+.footer-link-items a:hover {
   color: #4a90e2;
 }
 
@@ -107,6 +111,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .website-rights {
@@ -125,21 +130,21 @@
   color: #fff;
 }
 
-/* RESPONSIVE: Per cellulari tutto torna al centro */
+/* RESPONSIVE: Mobile */
 @media screen and (max-width: 768px) {
-  .footer-main-content {
+  .footer-links {
     flex-direction: column;
     align-items: center;
-    text-align: center;
   }
-  
-  .profile-info, .contact-info {
-    align-items: center;
+
+  .footer-link-wrapper {
+    width: 100%;
     text-align: center;
+    align-items: center;
     margin-bottom: 30px;
   }
 
-  .footer-contact-item {
+  .footer-link-items p {
     justify-content: center;
   }
 
@@ -150,5 +155,6 @@
   .footer-bottom {
     flex-direction: column;
     gap: 15px;
+    text-align: center;
   }
 }
