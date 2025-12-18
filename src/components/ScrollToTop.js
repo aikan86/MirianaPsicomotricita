@@ -1,16 +1,14 @@
-import ScrollToTop from './components/ScrollToTop'; // Assicurati che il percorso sia corretto
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
-function App() {
-  return (
-    <Router>
-      <ScrollToTop /> {/* Questo componente si attiverà ad ogni cambio pagina */}
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/psicomotricita" element={<Psicomotricita />} />
-        {/* ... tutte le altre rotte */}
-      </Routes>
-      <Footer />
-    </Router>
-  );
-}
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
+export default ScrollToTop;
