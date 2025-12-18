@@ -117,12 +117,14 @@ function Psicomotricita() {
         </div>
       </section>
 
-      <section className="benefits-section">
+      <section className="benefits-section identity-section"> 
         <div className="benefits-container">
           <h2>E' un percorso alla scoperta della propria identità</h2>
           <p>
-            <strong> La psicomotricità è un trampolino di lancio per la crescita complessiva dei bambini, 
-              per prepararli ad affrontare in modo sano le sfide della vita. </strong>
+            <strong>
+              La psicomotricità è un trampolino di lancio per la crescita complessiva dei bambini, 
+              per prepararli ad affrontare in modo sano le sfide della vita.
+            </strong>
           </p>
         </div>
       </section>

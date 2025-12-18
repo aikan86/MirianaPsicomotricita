@@ -280,6 +280,25 @@
   }
 /* CTA Section styling is already in App.css */
 
+  /* Aggiungi questo in fondo a Psicomotricita.css */
+.identity-section {
+    background-color: #f9eec2; /* Il colore giallo crema richiesto */
+    padding: 60px 0;
+    text-align: center;
+}
+
+.identity-section h2 {
+    color: #2e5d9e; /* Mantiene il blu coerente con il resto del sito */
+    margin-bottom: 20px;
+}
+
+.identity-section p {
+    max-width: 850px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #444; /* Un grigio scuro per contrastare bene sul giallo */
+}
+
 /* Responsive */
 @media screen and (max-width: 960px) {
     .intro-container, .science-content {
