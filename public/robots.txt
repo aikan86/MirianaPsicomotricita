@@ -1,3 +1,6 @@
-# https://www.robotstxt.org/robotstxt.html
+# Consenti a tutti i motori di ricerca di scansionare tutto il sito
 User-agent: *
 Disallow:
+
+# Indica dove si trova la mappa del sito
+Sitemap: https://www.mirianaferro-psicomotricista.it/sitemap.xml
